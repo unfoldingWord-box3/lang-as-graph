@@ -17,12 +17,8 @@ export default function Map({ data }) {
     setActiveNode(d);
   }, []);
 
-  const mouseout = useCallback(function (d) {
-    setActiveNode(null);
-  }, []);
-
   useEffect(() => {
-    visualize(data, { mouseover, mouseout });
+    visualize(data, { mouseover });
   }, [data]);
 
   const svgEl = useRef();
@@ -32,7 +28,11 @@ export default function Map({ data }) {
       <AppBar />
       <div id="map">
         <svg ref={svgEl} id="svg"></svg>
-        <Popover anchorEl={svgEl.current} data={activeNode} />
+        <Popover
+          onClose={() => setActiveNode(false)}
+          anchorEl={svgEl.current}
+          data={activeNode}
+        />
       </div>
     </Fragment>
   );
