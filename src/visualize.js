@@ -21,8 +21,6 @@ function render(data, cluster, svg, callbacks) {
   });
   cluster(root);
 
-  console.log(root.descendants());
-
   // Add the links between nodes:
   addLinks(root, svg);
   // Add a circle for each node.

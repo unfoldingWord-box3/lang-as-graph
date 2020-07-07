@@ -12,7 +12,6 @@ import Context from '../context';
 
 export default function Map(props) {
   const context = useContext(Context);
-  console.log('context', context);
 
   const [activeNode, setActiveNode] = useState(null);
 
@@ -40,7 +39,8 @@ export default function Map(props) {
         <Popover
           onClose={() => setActiveNode(false)}
           anchorEl={svgEl.current}
-          data={activeNode}
+          node={activeNode}
+          selectNode={context.getByCode}
         />
       </div>
     </Fragment>
