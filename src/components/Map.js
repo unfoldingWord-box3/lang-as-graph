@@ -4,12 +4,16 @@ import React, {
   useState,
   useCallback,
   useRef,
+  useContext,
 } from 'react';
 import visualize from '../visualize';
-import AppBar from './AppBar';
 import Popover from './Popover';
+import Context from '../context';
 
-export default function Map({ data }) {
+export default function Map(props) {
+  const context = useContext(Context);
+  console.log('context', context);
+
   const [activeNode, setActiveNode] = useState(null);
 
   const mouseover = useCallback(function (d) {
@@ -17,15 +21,21 @@ export default function Map({ data }) {
   }, []);
 
   useEffect(() => {
-    visualize(data, { mouseover });
-  }, [data, mouseover]);
+    visualize(context.results, { mouseover });
+  }, [context.results, mouseover]);
+
+  useEffect(() => {
+    context.getByRegion('Pacific');
+  }, []);
 
   const svgEl = useRef();
 
   return (
     <Fragment>
-      <AppBar />
       <div id="map">
+        <h1>
+          {context.query.type}: {context.query.term}
+        </h1>
         <svg ref={svgEl} id="svg"></svg>
         <Popover
           onClose={() => setActiveNode(false)}

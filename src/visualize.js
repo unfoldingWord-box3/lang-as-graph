@@ -30,6 +30,7 @@ function render(data, cluster, svg, callbacks) {
 }
 
 function createSvgCanvas(width, height) {
+  select('#svg').select('g').remove();
   return select('#svg')
     .attr('width', width)
     .attr('height', height)

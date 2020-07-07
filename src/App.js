@@ -10,25 +10,25 @@ import {
   getByRegion,
 } from './gunQueries';
 import ThemeProvider from './Theme';
+import { Provider } from './context';
+import AppBar from './components/AppBar';
 
 export default function App() {
-  // State changes only after GunDB has been loaded and the higher-order-component
-  // has been created
   const [dataReady, setDataReady] = useState(false);
-  const [results, setResults] = useState(null);
 
   useEffect(function () {
     (async function () {
       await loadedGun();
-      // await getByCode('nmz', setResults);
-      await getByRegion('Pacific', setResults);
       setDataReady(true);
     })();
   }, []);
-
+  
   return (
-    <ThemeProvider>
-      <div id="app">{dataReady ? <Map data={results} /> : <RingLoader />}</div>
-    </ThemeProvider>
+    <Provider>
+      <ThemeProvider>
+        <AppBar />
+        <div id="app">{dataReady ? <Map /> : <RingLoader />}</div>
+      </ThemeProvider>
+    </Provider>
   );
 }
