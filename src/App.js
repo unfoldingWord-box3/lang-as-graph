@@ -9,6 +9,7 @@ import {
   getByName,
   getByRegion,
 } from './gunQueries';
+import ThemeProvider from './Theme';
 
 export default function App() {
   // State changes only after GunDB has been loaded and the higher-order-component
@@ -26,6 +27,8 @@ export default function App() {
   }, []);
 
   return (
-    <div id="app">{dataReady ? <Map data={results} /> : <RingLoader />}</div>
+    <ThemeProvider>
+      <div id="app">{dataReady ? <Map data={results} /> : <RingLoader />}</div>
+    </ThemeProvider>
   );
 }

@@ -1,29 +1,44 @@
 import React, { useState } from 'react';
+import {
+  AppBar,
+  Toolbar,
+  TextField,
+  Select,
+  MenuItem,
+  Button,
+} from '@material-ui/core';
+import SearchIcon from '@material-ui/icons/Search';
 
-export default function AppBar(props) {
+export default function MyAppBar(props) {
   const [searchTerm, setSearchTerm] = useState('');
   const [option, setOption] = useState('anglicized_name');
 
   return (
-    <div id="addBar">
-      <nav>
-        <ul className="nav__list">
-          <li className="nav__list__item search">
-            <input
-              value={searchTerm}
-              type="text"
-              onChange={(e) => setSearchTerm(e.target.value)}
-            />
-            <select value={option} onChange={(e) => setOption(e.target.value)}>
-              <option value="anglicized_name">Anglicized Name</option>
-              <option value="country">Country</option>
-              <option value="region">Region</option>
-              <option value="name">Language Name</option>
-              <option value="code">Language Code</option>
-            </select>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <AppBar position="relative" id="addBar">
+      <Toolbar>
+        <div className="toolbar__tools">
+          <TextField
+            value={searchTerm}
+            type="text"
+            onChange={(e) => setSearchTerm(e.target.value)}
+            placeholder="View languages by..."
+          />
+          <Select value={option} onChange={(e) => setOption(e.target.value)}>
+            <MenuItem value="anglicized_name">Anglicized Name</MenuItem>
+            <MenuItem value="country">Country</MenuItem>
+            <MenuItem value="region">Region</MenuItem>
+            <MenuItem value="name">Language Name</MenuItem>
+            <MenuItem value="code">Language Code</MenuItem>
+          </Select>
+          <Button
+            variant="contained"
+            color="secondary"
+            startIcon={<SearchIcon />}
+          >
+            Search
+          </Button>
+        </div>
+      </Toolbar>
+    </AppBar>
   );
 }

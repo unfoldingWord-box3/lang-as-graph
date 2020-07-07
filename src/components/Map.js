@@ -4,7 +4,6 @@ import React, {
   useState,
   useCallback,
   useRef,
-  memo,
 } from 'react';
 import visualize from '../visualize';
 import AppBar from './AppBar';
@@ -19,7 +18,7 @@ export default function Map({ data }) {
 
   useEffect(() => {
     visualize(data, { mouseover });
-  }, [data]);
+  }, [data, mouseover]);
 
   const svgEl = useRef();
 
