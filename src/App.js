@@ -2,16 +2,10 @@ import React, { useEffect, useState } from 'react';
 import Map from './components/Map';
 import { RingLoader } from 'react-spinners';
 import loadedGun from './loadGun';
-import {
-  getByCode,
-  getByAnglicizedName,
-  getByCountry,
-  getByName,
-  getByRegion,
-} from './gunQueries';
 import ThemeProvider from './Theme';
 import { Provider } from './context';
 import AppBar from './components/AppBar';
+import Drawer from './components/Drawer';
 
 export default function App() {
   const [dataReady, setDataReady] = useState(false);
@@ -22,11 +16,12 @@ export default function App() {
       setDataReady(true);
     })();
   }, []);
-  
+
   return (
     <Provider>
       <ThemeProvider>
         <AppBar />
+        <Drawer />
         <div id="app">{dataReady ? <Map /> : <RingLoader />}</div>
       </ThemeProvider>
     </Provider>

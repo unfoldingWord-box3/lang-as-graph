@@ -29,6 +29,11 @@ export default function Map(props) {
 
   const svgEl = useRef();
 
+  function nodeSelected(code) {
+    context.getByCode(code);
+    setActiveNode(null);
+  }
+
   return (
     <Fragment>
       <div id="map">
@@ -40,7 +45,7 @@ export default function Map(props) {
           onClose={() => setActiveNode(false)}
           anchorEl={svgEl.current}
           node={activeNode}
-          selectNode={context.getByCode}
+          selectNode={nodeSelected}
         />
       </div>
     </Fragment>
