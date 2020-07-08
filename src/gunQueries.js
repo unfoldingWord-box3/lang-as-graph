@@ -23,6 +23,7 @@ const getLanguageBy = function (attribute) {
 
 function getChildLanguages(gatewayLanguage) {
   const child_languages = [];
+  console.log("gatewayLanguage", gatewayLanguage);
   Gun()
     .get('languages')
     .map(function (l, code) {

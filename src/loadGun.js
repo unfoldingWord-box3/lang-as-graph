@@ -1,6 +1,6 @@
 import Gun from 'gun';
 import { csv } from 'd3';
-import * as languagesCSV from './data/test.csv';
+import * as languagesCSV from './data/languages.csv';
 
 export default async function returnLoadedGun() {
   const languages = await Gun()
