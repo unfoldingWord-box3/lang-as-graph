@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import PropTypes from 'prop-types';
 import {
   Accordion,
   AccordionSummary,
@@ -10,7 +11,7 @@ import {
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Context from '../context';
 
-export default function LangAccordion({ children }) {
+export default function ChildLangSelect({ children }) {
   const context = useContext(Context);
 
   return (

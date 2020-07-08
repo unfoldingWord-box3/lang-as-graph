@@ -7,10 +7,11 @@ import React, {
   useContext,
 } from 'react';
 import visualize from '../visualize';
-import Popover from './Popover';
+import Popover from './NodePopover';
 import Context from '../context';
+import LangPanel from './LangPanel';
 
-export default function Map(props) {
+export default function LangGraph(props) {
   const context = useContext(Context);
 
   const [activeNode, setActiveNode] = useState(null);
@@ -28,6 +29,7 @@ export default function Map(props) {
   }, []);
 
   const svgEl = useRef();
+  const mapEl = useRef();
 
   function nodeSelected(code) {
     context.getByCode(code);
@@ -36,11 +38,12 @@ export default function Map(props) {
 
   return (
     <Fragment>
-      <div id="map">
+      <div ref={mapEl} id="map">
         <h1>
           {context.query.type}: {context.query.term}
         </h1>
         <svg ref={svgEl} id="svg"></svg>
+        <LangPanel />
         <Popover
           onClose={() => setActiveNode(false)}
           anchorEl={svgEl.current}

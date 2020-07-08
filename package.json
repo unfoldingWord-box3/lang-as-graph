@@ -27,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "styleguidist": "styleguidist server --config styleguide.config.js",
+    "styleguidist:build": "styleguidist build --config styleguide.config.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "react-styleguidist": "^11.0.8"
   }
 }

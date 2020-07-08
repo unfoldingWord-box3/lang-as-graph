@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import Map from './components/Map';
 import { RingLoader } from 'react-spinners';
 import loadedGun from './loadGun';
 import ThemeProvider from './Theme';
 import { Provider } from './context';
-import AppBar from './components/AppBar';
-import Drawer from './components/Drawer';
+import LangGraph from './components/LangGraph';
+import LangSelector from './components/LangSelector';
 
 export default function App() {
   const [dataReady, setDataReady] = useState(false);
@@ -20,9 +19,8 @@ export default function App() {
   return (
     <Provider>
       <ThemeProvider>
-        <AppBar />
-        <Drawer />
-        <div id="app">{dataReady ? <Map /> : <RingLoader />}</div>
+        <LangSelector />
+        <div id="app">{dataReady ? <LangGraph /> : <RingLoader />}</div>
       </ThemeProvider>
     </Provider>
   );

@@ -10,7 +10,7 @@ import {
 import SearchIcon from '@material-ui/icons/Search';
 import Context from '../context';
 
-export default function MyAppBar(props) {
+export default function LangSelector(props) {
   const [searchTerm, setSearchTerm] = useState('');
   const [option, setOption] = useState('anglicized_name');
   const {

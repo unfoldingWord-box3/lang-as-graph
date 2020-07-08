@@ -1,7 +1,7 @@
 import React from 'react';
 import { Popover, Typography } from '@material-ui/core';
 
-export default function GraphPopover(props) {
+export default function NodePopover(props) {
   if (!props.node) return null;
   const { x, y } = props.node;
   const { data } = props.node;
