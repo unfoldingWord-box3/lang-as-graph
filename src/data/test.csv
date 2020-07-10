@@ -1,7 +1,1000 @@
 code,name,native_speakers,country,region,gl,anglicized_name
-nmz,Nawdm,152000,Togo,Africa,,Nawdm
-wha,Manusela,7000,Indonesia,Pacific,,Manusela
-tdj,Tajio,12000,Indonesia,Pacific,nmz,Tajio
-pku,Paku,3500,Indonesia,Pacific,wha,Paku
-aaq,Eastern Abnaki,,United States,Americas,nmz,Abenaki
-ppm,Papuma,600,Indonesia,Pacific,wha,Papuma
+nmz,Nawdm,152000,Togo,Africa,fr,Nawdm
+test,TEST,152000,TEST,TEST,nmz,TEST
+wha,Manusela,7000,Indonesia,Pacific,id,Manusela
+tdj,Tajio,12000,Indonesia,Pacific,id,Tajio
+pku,Paku,3500,Indonesia,Pacific,id,Paku
+aaq,Eastern Abnaki,,United States,Americas,en,Abenaki
+ppm,Papuma,600,Indonesia,Pacific,id,Papuma
+ado,Abu,4200,Papua New Guinea,Pacific,tpi,Abu
+adr,Adonara,98000,Indonesia,Pacific,id,Adonara
+aag,Ambrak,290,Papua New Guinea,Pacific,tpi,Ambrak
+abw,Pal,1200,Papua New Guinea,Pacific,tpi,Pal
+bgi,Giangan,55000,Philippines,Asia,ceb,Giangan
+pcp,Pacahuara,,Bolivia,Americas,es-419,Pacahuara
+pkg,Pak-Tong,970,Papua New Guinea,Pacific,tpi,Pak-Tong
+aak,Ankave,1600,Papua New Guinea,Pacific,tpi,Ankave
+aby,Aneme Wake,650,Papua New Guinea,Pacific,tpi,Aneme Wake
+pna,Punan Bah-Biau,450,Malaysia,Asia,ms,Penan
+piu,Pintupi-Luritja,,Australia,Pacific,en,Pintupi-Luritja
+piz,Pije,,New Caledonia,Pacific,en,Pije
+abf,Abai Sungai,500,Malaysia,Asia,ms,Abai Sungai
+pkn,Pakanha,,Australia,Pacific,en,Pakanha
+prl,Peruvian Sign Language,,Peru,Americas,es-419,Peruvian Sign Language
+pks,Pakistan Sign Language,7400000,Pakistan,Eurasia,ur,Pakistan Sign Language
+acr,Achi,,Guatemala,Americas,es-419,Achi
+agj,Argobba,44000,Ethiopia,Africa,am,Argobba
+phw,Phangduwali,290,Nepal,South Asia,ne,Phangduwali
+abc,Ambala Ayta,1660,Philippines,Asia,ceb,Ayta
+abd,Manide,3800,Philippines,Asia,ilo,Manide
+aed,Argentine Sign Language,,Argentina,Americas,es-419,Argentine Sign Language
+aeq,آیر زبان,150,Pakistan,Eurasia,ur,Aer
+pho,Phunoi,43000,Laos,Asia,lo,Phunoi
+aem,Arem,85,Vietnam,Asia,vi,Arem
+aek,Haeke,,New Caledonia,Pacific,en,Haeke
+acv,Achumawi,,United States,Americas,en,Achumawi
+abv,العربية البحرانية,600000,Bahrain,Eurasia,ar,Arabic
+aca,Achagua,,Colombia,Americas,es-419,Achagua
+alc,Qawasqar,,Chile,Americas,es-419,Qawasqar
+pcn,Piti,8100,Nigeria,Africa,en,Piti
+adu,Aduge,1900,Nigeria,Africa,en,Aduge
+abm,Abanyom,13000,Nigeria,Africa,en,Abanyom
+abn,Abua,25000,Nigeria,Africa,en,Abua
+acb,Áncá,300,Nigeria,Africa,en,Áncá
+pil,Yom,330000,Benin,Africa,fr,Yom
+nmg,Kwasio,26000,Cameroon,Africa,fr,Kwasio
+gou,Gavar,15000,Cameroon,Africa,fr,Gavar
+ael,Ambele,2600,Cameroon,Africa,fr,Ambele
+bgj,Bangolan,16000,Cameroon,Africa,fr,Bangolan
+abb,Bankon,14000,Cameroon,Africa,fr,Bankon
+add,Dzodinka,2500,Cameroon,Africa,fr,Dzodinka
+abr,Abron,1400000,Ghana,Africa,en,Abron
+ada,Adangme,710000,Ghana,Africa,en,Dangme
+adh,Adhola,415000,Uganda,Africa,en,Adhola
+adj,Adioukrou,120000,Côte d’Ivoire,Africa,fr,Adioukrou
+adw,Amundava,70,Brazil,Americas,pt,Amundava
+ttt-x-ismai,Ismaili,,Azerbaijan,Eurasia,ru,Ismaili
+ttt-x-txizi,Xizi,,Azerbaijan,Eurasia,ru,Chichi
+ahl,Igo,8000,Togo,Africa,fr,Igo
+aia,Arosi,,Solomon Islands,Pacific,pis,Arosi
+aio,Aiton,1500,India,South Asia,as,Aiton
+aks,Akaselem,62000,Togo,Africa,fr,Akaselem
+kpo,Ikposo,161000,Togo,Africa,fr,Ikposo
+anm,Anal,23200,India,South Asia,mni,Anal
+prp,Parsi,151000,India,South Asia,gu,Parsi
+bxo,Barikanchi,-1,Nigeria,Africa,en,Barikanchi
+amu,Guerrero Amuzgo,,Mexico,Americas,es-419,Amuzgo
+pni,Aoheng,2630,Indonesia,Pacific,id,Aoheng
+agf,Arguni,150,Indonesia,Pacific,id,Arguni
+ana,Andaqui,,Colombia,Americas,es-419,Andaqui
+ple,Palu'e,3000,Indonesia,Pacific,id,Palu’e
+ahh,Aghu,3000,Indonesia,Pacific,id,Aghu
+aim,Aimol,2600,India,South Asia,hi,Aimol
+pem-x-gipendega,Gipende Gatundu,,Democratic Republic of the Congo,Africa,fr,
+nlo,Ngul,125000,Democratic Republic of the Congo,Africa,fr,Ngul
+pms,Piemontese,,Italy,Eurasia,en,Piemontese
+amv,Ambelau,8500,Indonesia,Pacific,id,Ambelau
+nkz,Nkari,22000,Nigeria,Africa,en,Nkari
+and,Ansus,7200,Indonesia,Pacific,id,Ansus
+poq,Texistepec Popoluca,,Mexico,Americas,es-419,Popoluca
+puf,Punan Merah,200,Indonesia,Pacific,id,Punan Merah
+akc,Mpur,9800,Indonesia,Pacific,id,Mpur
+ppa,Pao,53000,India,South Asia,hi,Pao
+air,Airoran,1400,Indonesia,Pacific,id,Airoran
+agk,Isarog Agta,1000,Philippines,Asia,ilo,Agta
+akr,Araki,,Vanuatu,Pacific,fr,Araki
+psa,Asue Awyu,8000,Indonesia,Pacific,id,Awyu
+alj,Alangan,7700,Philippines,Asia,ilo,Alangan
+nnf,Ngaing,2000,Papua New Guinea,Pacific,tpi,Ngaing
+ipo,Ipiko,350,Papua New Guinea,Pacific,tpi,Ipiko
+ahn,Àhàn,250,Nigeria,Africa,en,Àhàn
+psw,Port Sandwich,,Vanuatu,Pacific,fr,Port Sandwich
+aif,Agi,960,Papua New Guinea,Pacific,tpi,Agi
+aic,Ainbai,100,Papua New Guinea,Pacific,tpi,Ainbai
+aik,Ake,3100,Nigeria,Africa,en,Ake
+anh,Nend,2000,Papua New Guinea,Pacific,tpi,Nend
+akq,Ak,75,Papua New Guinea,Pacific,tpi,Ak
+anj,Anor,980,Papua New Guinea,Pacific,tpi,Anor
+akf,Akpa,90000,Nigeria,Africa,en,Akpa
+prw,Parawen,430,Papua New Guinea,Pacific,tpi,Parawen
+agn,Agutaynen,15000,Philippines,Asia,en,Agutaynen
+agu,Aguacateco,,Guatemala,Americas,es-419,Awakateko
+agw,Kahua,,Solomon Islands,Pacific,pis,Kahua
+ahb,Axamb,,Vanuatu,Pacific,fr,Axamb
+agl,Fembe,350,Papua New Guinea,Pacific,tpi,Fembe
+ail,Aimele,140,Papua New Guinea,Pacific,tpi,Aimele
+aki,Aiome,750,Papua New Guinea,Pacific,tpi,Aiome
+ala,Alago,29500,Nigeria,Africa,en,Alago
+bgl,Bo (Laos),3400,Laos,Asia,lo,Bo
+aht,Ahtena,,United States,Americas,en,Ahtena
+iba-x-dayakbanjur,Dayak Banjur,,Indonesia,Pacific,id,
+nkx,Nkoroo,4600,Nigeria,Africa,en,Nkoroo
+akl,Aklanon,435000,Philippines,Asia,en,Inakeanon
+alh,Alawa,,Australia,Pacific,en,Alawa
+yor-x-ondo,Ondo,,Nigeria,Africa,en,Ondo
+akw,Akwa,28000,Congo,Africa,fr,Akwa
+aiy,Ali,69000,Central African Republic,Africa,fr,Ali
+anf,Animere,25,Ghana,Africa,en,Animere
+nlo-x-ngwi,Ngwi,,Democratic Republic of the Congo,Africa,fr,
+pre,Principense,160,São Tomé e Príncipe,Africa,pt,Principense
+kan-x-palligaru,Palligaru,,India,South Asia,kn,
+ard,Arabana,,Australia,Pacific,en,Arabana
+apj,Jicarilla Apache,,United States,Americas,en,Apache
+psl,Puerto Rican Sign Language,,Puerto Rico,Americas,es-419,Puerto Rican Sign Language
+las,Lama (Togo),207000,Togo,Africa,fr,Lama
+psn,Panasuan,800,Indonesia,Pacific,id,Panasuan
+mia,Miami,,United States,Americas,en,Miami
+apx,Aputai,120,Indonesia,Pacific,id,Aputai
+asz,As,230,Indonesia,Pacific,id,As
+apn,Apinayé,1260,Brazil,Americas,pt,Apinayé
+psi,Southeast Pashai,180000,Afghanistan,Eurasia,ps,Pashai
+atq,Aralle-Tabulahan,12000,Indonesia,Pacific,id,Aralle-Tabulahan
+apg,Ampanang,38000,Indonesia,Pacific,id,Ampanang
+aol,Alor,40000,Indonesia,Pacific,id,Alor
+bvh,Bure,20,Nigeria,Africa,en,Bure
+qul,North Bolivian Quechua,,Bolivia,Americas,es-419,Quechua
+asy,Yaosakor Asmat,2900,Indonesia,Pacific,id,Asmat
+aws,South Awyu,12000,Indonesia,Pacific,id,Awyu
+anz,Anem,800,Papua New Guinea,Pacific,tpi,Anem
+apk,Kiowa Apache,,United States,Americas,en,Apache
+aod,Andarum,2200,Papua New Guinea,Pacific,tpi,Andarum
+anx,Andra-Hus,1300,Papua New Guinea,Pacific,tpi,Andra-Hus
+aoe,Angal Enen,80000,Papua New Guinea,Pacific,tpi,Angal Enen
+qud,Calderón Highland Quichua,,Ecuador,Americas,es-419,Quichua
+aof,Bragat,460,Papua New Guinea,Pacific,tpi,Bragat
+apo,Ambul,10800,Papua New Guinea,Pacific,tpi,Ambul
+qxs,Southern Qiang,81300,China,Asia,zh,Qiang
+aso,Dano,30000,Papua New Guinea,Pacific,tpi,Dano
+asx,Muratayak,1100,Papua New Guinea,Pacific,tpi,Muratayak
+ate,Atemble,60,Papua New Guinea,Pacific,tpi,Atemble
+apu,Apurinã,2000,Brazil,Americas,pt,Apurinã
+arj,Arapaso,-1,Brazil,Americas,pt,Arapaso
+app,Apma,,Vanuatu,Pacific,fr,Apma
+asn,Xingú Asuriní,70,Brazil,Americas,pt,Asurini of Xingú
+psm,Pauserna,,Bolivia,Americas,es-419,Pauserna
+atz,Arta,11,Philippines,Asia,ilo,Arta
+atw,Atsugewi,,United States,Americas,en,Atsugewi
+atm,Ata,2,Philippines,Asia,ceb,Ata
+ayc,Southern Aymara,,Peru,Americas,es-419,Aymara
+pem-x-pindi,Kipindi,,Democratic Republic of the Congo,Africa,fr,
+aok,Arhö,,New Caledonia,Pacific,en,Arhö
+qxq,زبان ترکی قشقایی,1600000,Iran,Eurasia,fa,Kashkay
+atn,زبان آشتیانی,21000,Iran,Eurasia,fa,Ashtiani
+apf,Pahanan Agta,1700,Philippines,Asia,ilo,Agta
+gio,仡佬,400,China,Asia,zh,A’ou
+apl,Lipan Apache,,United States,Americas,en,Apache
+pwb,Panawa,33000,Nigeria,Africa,en,Panawa
+aqr,Arhâ,,New Caledonia,Pacific,en,Arhâ
+ari,Arikara,,United States,Americas,en,Arikara
+arl,Arabela,,Peru,Americas,es-419,Arabela
+anv,Denya,15000,Cameroon,Africa,fr,Denya
+arp,Arapaho,,United States,Americas,en,Arapaho
+atk,Ati,1000,Philippines,Asia,en,Ati
+aty,Aneityum,,Vanuatu,Pacific,fr,Aneityum
+aqd,Ampari Dogon,6000,Mali,Africa,fr,Dogon
+bgm,Baga Mboteni,3750,Guinea,Africa,fr,Baga Mboteni
+nnu,Dwang,9500,Ghana,Africa,en,Dwang
+puu,Punu,147000,Gabon,Africa,fr,Punu
+ayg,Ginyanga,17200,Togo,Africa,fr,Ginyanga
+aud,Anuta,,Solomon Islands,Pacific,pis,Anuta
+auq,Anus,70,Indonesia,Pacific,id,Anus
+awr,Awera,70,Indonesia,Pacific,id,Awera
+grs,Gresi,2500,Indonesia,Pacific,id,Gresi
+baj,Barakai,4800,Indonesia,Pacific,id,Barakai
+ret,Retta,900,Indonesia,Pacific,id,Reta
+nof,Nomane,6700,Papua New Guinea,Pacific,tpi,Nomane
+bbv,Karnai,920,Papua New Guinea,Pacific,tpi,Karnai
+bcf,Bamu,5400,Papua New Guinea,Pacific,tpi,Bamu
+avt,Au,8000,Papua New Guinea,Pacific,tpi,Au
+qxa,Chiquián Ancash Quechua,,Peru,Americas,es-419,Quechua
+bik,Bikol,3800000,Philippines,Pacific,tl,Bikol
+cng,Northern Qiang,57800,China,Asia,zh,Qiang
+qxh,Panao Huánuco Quechua,,Peru,Americas,es-419,Quechua
+rie,Rien,6100,Laos,Asia,lo,Rien
+rka,Kraol,1960,Cambodia,Asia,km,Kraol
+rgr,Resígaro,,Peru,Americas,es-419,Resígaro
+rmz,Marma,165000,Bangladesh,South Asia,bn,Marma
+awx,Awara,1950,Papua New Guinea,Pacific,tpi,Awara
+awm,Arawum,50,Papua New Guinea,Pacific,tpi,Arawum
+aya,Awar,900,Papua New Guinea,Pacific,tpi,Awar
+ayq,Ayi (Papua New Guinea),410,Papua New Guinea,Pacific,tpi,Ayi
+rmg,Traveller Norwegian,,Norway,Eurasia,en,Norwegian
+awb,Awa (Papua New Guinea),2300,Papua New Guinea,Pacific,tpi,Awa
+bbd,Bau,3200,Papua New Guinea,Pacific,tpi,Bau
+bbf,Baibai,350,Papua New Guinea,Pacific,tpi,Baibai
+awk,Awabakal,,Australia,Pacific,en,Awabakal
+auk,Heyo,3100,Papua New Guinea,Pacific,tpi,Heyo
+wud,Wudu,1500,Togo,Africa,fr,Wudu
+uln,Unserdeutsch,-1,Papua New Guinea,Pacific,tpi,Unserdeutsch
+auy,Awiyaana,13000,Papua New Guinea,Pacific,tpi,Awiyaana
+avb,Avau,710,Papua New Guinea,Pacific,tpi,Avau
+bch,Bariai,1650,Papua New Guinea,Pacific,tpi,Bariai
+awt,Araweté,200,Brazil,Americas,pt,Araweté
+pem-x-gipendegu,Gipende Gungu,,Democratic Republic of the Congo,Africa,fr,
+aul,Aulua,,Vanuatu,Pacific,fr,Aulua
+ram,Canela,2500,Brazil,Americas,pt,Canela
+aut,Austral,,French Polynesia,Pacific,fr,Austral
+knx-x-punangongsolok,Punan Gong Solok,,Indonesia,Pacific,id,
+azt,Faire Atta,300,Philippines,Asia,ilo,Atta
+ayi,Leyigha,10000,Nigeria,Africa,en,Leyigha
+bbs,Bakpinka,4000,Nigeria,Africa,en,Bakpinka
+azo,Awing,22000,Cameroon,Africa,fr,Awing
+bbi,Barombi,3000,Cameroon,Africa,fr,Barombi
+rn,Ikirundi,9600000,Burundi,Africa,sw,Kirundi
+bbx,Bubia,600,Cameroon,Africa,fr,Bubia
+bck,Bunaba,,Australia,Pacific,en,Bunaba
+bgd,Rathwi Bareli,101000,India,South Asia,hi,Bareli
+rng,Ronga,800000,Mozambique,Americas,pt,Ronga
+reg,Kara (Tanzania),112000,Tanzania,Africa,sw,Kara
+rnw,Rungwa,23400,Tanzania,Africa,sw,Rungwa
+avn,Avatime,27500,Ghana,Africa,en,Avatime
+avi,Avikam,26400,Côte d’Ivoire,Africa,fr,Avikam
+bbm,Babango,4200,Democratic Republic of the Congo,Africa,fr,Babango
+bcg,Baga Pokur,3700,Guinea,Africa,fr,Baga Pokur
+bcb,Bainouk-Samik,1600,Senegal,Africa,fr,Bainouk-Samik
+bbe,Bangba,14000,Democratic Republic of the Congo,Africa,fr,Bangba
+bhy,Bhele,20000,Democratic Republic of the Congo,Africa,fr,Bhele
+bbp,West Central Banda,6000,Central African Republic,Africa,fr,Banda
+rom,Romany,1500000,Romania,Eurasia,en,Romany
+no,Norsk,,Norway,Eurasia,en,Norwegian
+bdf,Biage,1150,Papua New Guinea,Pacific,tpi,Biage
+bgr,Bawm Chin,4440,India,South Asia,as,Chin
+bjz,Baruga,2500,Papua New Guinea,Pacific,tpi,Baruga
+bek,Bebeli,700,Papua New Guinea,Pacific,tpi,Bebeli
+bjc,Bariji,530,Papua New Guinea,Pacific,tpi,Bariji
+bjh,Bahinemo,650,Papua New Guinea,Pacific,tpi,Bahinemo
+hni-x-longpuha,Longpu Hani,,China,Asia,zh,
+bjp,Fanamaket,1250,Papua New Guinea,Pacific,tpi,Fanamaket
+rnl,Ranglong,8000,India,South Asia,bn,Ranglong
+bmu,Somba-Siawari,10500,Papua New Guinea,Pacific,tpi,Somba-Siawari
+rat,Razajerdi,100,Iran,Eurasia,fa,Razajerdi
+bgq,Bagri,647000,India,South Asia,hi,Bagri
+bls,Balaesang,3000,Indonesia,Pacific,id,Balaesang
+enq,Enga,264000,Papua New Guinea,Pacific,tpi,Enga
+bfn,Bunak,60000,East Timor,Pacific,pt,Bunak
+bed,Bedoanas,180,Indonesia,Pacific,id,Bedoanas
+bgb,Bobongko,1500,Indonesia,Pacific,id,Bobongko
+rnn,Roon,1500,Indonesia,Pacific,id,Roon
+bdy,Bandjalang,,Australia,Pacific,en,Bandjalang
+blj,Bolongan,38000,Indonesia,Pacific,id,Bolongan
+bea,Beaver,,Canada,Americas,en,Beaver
+bdw,Baham,1700,Indonesia,Pacific,id,Baham
+bdb,Basap,17000,Indonesia,Pacific,id,Basap
+bfz,Mahasu Pahari,1000000,India,South Asia,hi,Pahari
+rwo,Rawa,12000,Papua New Guinea,Pacific,tpi,Rawa
+bio,Nai,750,Papua New Guinea,Pacific,tpi,Nai
+bcv,Shoo-Minda-Nye,10000,Nigeria,Africa,en,Shoo-Minda-Nye
+biy,Birhor,2000,India,South Asia,hi,Birhor
+rpt,Rapting,330,Papua New Guinea,Pacific,tpi,Rapting
+bie,Bepour,50,Papua New Guinea,Pacific,tpi,Bepour
+bjs,Bajan,,Barbados,Americas,en,Bajan
+big,Biangai,1400,Papua New Guinea,Pacific,tpi,Biangai
+bda,Bayot,21000,Senegal,Africa,fr,Bayot
+blb,Bilua,,Solomon Islands,Pacific,pis,Bilua
+cnh,Haka Chin,130000,Myanmar,Asia,my,Chin
+blp,Blablanga,,Solomon Islands,Pacific,pis,Blablanga
+blx,Mag-Indi Ayta,5000,Philippines,Asia,en,Ayta
+bin,Bini,1000000,Nigeria,Africa,en,Edo
+bgg,Bugun,900,India,South Asia,hi,Bugun
+te-x-dhongri,Dhongri,,India,South Asia,te,
+bka,Kyak,5000,Nigeria,Africa,en,Kyak
+bkv,Bekwarra,100000,Nigeria,Africa,en,Bekwarra
+bly,Notre,1500,Benin,Africa,fr,Notre
+bfd,Bafut,115000,Cameroon,Africa,fr,Bafut
+bju,Busuu,2,Cameroon,Africa,fr,Busuu
+beb,Bebele,24000,Cameroon,Africa,fr,Bebele
+bdp,Bende,46000,Tanzania,Africa,sw,Bende
+bdj,Bai,1100,South Sudan,Africa,ar,Bai
+biz,Baloi,23000,Democratic Republic of the Congo,Africa,fr,Baloi
+bkf,Beeke,750,Democratic Republic of the Congo,Africa,fr,Beeke
+bim,Bimoba,180000,Ghana,Africa,en,Bimoba
+bff,Bofi,29000,Central African Republic,Africa,fr,Bofi
+bkt,Boloki,4200,Democratic Republic of the Congo,Africa,fr,Boloki
+bkg,Buraka,26000,Central African Republic,Africa,fr,Buraka
+ruc,Ruuli,185000,Uganda,Africa,en,Ruuli
+bnc,Bontok,600000,Philippines,Pacific,ilo,Bontok
+bnk,Bierebo,800,Vanuatu,Pacific,fr,Bierebo
+bnr,Butmas-Tur,520,Vanuatu,Pacific,fr,Butmas-Tur
+bmz,Baramu,970,Papua New Guinea,Pacific,tpi,Baramu
+bof,Bolon,23000,Burkina Faso,Africa,fr,Bolon
+sbd,Southern Samo,85000,Burkina Faso,Africa,fr,Samo
+tvt,Tutsa Naga,25000,India,South Asia,en,Naga
+blc,Bella Coola,,Canada,Americas,en,Bella Coola
+bqq,Biritai,250,Indonesia,Pacific,id,Biritai
+bnv,Bonerif,4,Indonesia,Pacific,id,Beneraf
+npn,Mondropolon,600,Papua New Guinea,Pacific,tpi,Mondropolon
+sdg,Savi,3000,Afghanistan,Eurasia,ps,Savi
+bnq,Bantik,3000,Indonesia,Pacific,id,Bantik
+sdu,Sarudu,5800,Indonesia,Pacific,id,Sarudu
+bne,Bintauna,11200,Indonesia,Pacific,id,Bintauna
+whu,Wahau Kayan,900,Indonesia,Pacific,id,Kayan
+bqr,Burusu,4400,Indonesia,Pacific,id,Burusu
+bpo,Anasi,2800,Indonesia,Pacific,id,Anasi
+bny,Bintulu,4200,Malaysia,Asia,ms,Bintulu
+blg,Balau,5000,Malaysia,Asia,ms,Balau
+rop,Kriol,,Australia,Pacific,en,Kriol
+bmj,Bote-Majhi,24664,Nepal,South Asia,ne,Bote
+scb,Chut,500,Vietnam,Asia,vi,Chut
+scs,North Slavey,,Canada,Americas,en,Slavey
+blq,Baluan-Pam,2300,Papua New Guinea,Pacific,tpi,Baluan-Pam
+roo,Rotokas,5600,Papua New Guinea,Pacific,tpi,Rotokas
+sec,Sechelt,,Canada,Americas,en,Sechelt
+bnp,Bola,15800,Papua New Guinea,Pacific,tpi,Bola
+see,Seneca,,United States,Americas,en,Seneca
+bpu,Bongu,970,Papua New Guinea,Pacific,tpi,Bongu
+bpi,Bagupi,35,Papua New Guinea,Pacific,tpi,Bagupi
+bql,Bilakura,15,Papua New Guinea,Pacific,tpi,Bilakura
+bmc,Biem,2500,Papua New Guinea,Pacific,tpi,Biem
+bmk,Ghayavi,3250,Papua New Guinea,Pacific,tpi,Ghayavi
+bpm,Biyom,400,Papua New Guinea,Pacific,tpi,Biyom
+faa,Fasu,1360,Papua New Guinea,Pacific,tpi,Fasu
+bli,Bolia,120000,Democratic Republic of the Congo,Africa,fr,Bolia
+sdb,شەبەکی,8000,Iraq,Eurasia,ar,Shabak
+sek,Sekani,,Canada,Americas,en,Sekani
+pna-x-punanhalanga,Punan Halanga,,Indonesia,Pacific,id,
+dsn,Dusner,20,Indonesia,Pacific,id,Dusner
+ce,нохчийн мотт,1400000,Russian Federation,Eurasia,ru,Chechen
+boa,Bora,,Peru,Americas,es-419,Bora
+bpx,Palya Bareli,10000,India,South Asia,hi,Bareli
+kpv,Ко́ми-зыря́нский,217000,Russian Federation,Eurasia,ru,Komi-Zyrian
+rog,Tiếng Ra Glai,61000,Vietnam,Asia,vi,Roglai
+day-x-dayaksambas,Dayak Sambas,,Indonesia,Pacific,id,
+nfd,Ahwai,15000,Nigeria,Africa,en,Ahwai
+ruk,Che,100000,Nigeria,Africa,en,Kuce
+scw,Sha,3000,Nigeria,Africa,en,Sha
+bqw,Buru (Nigeria),800,Nigeria,Africa,en,Buru
+scg-x-semerawai,Dayak Semerawai,,Indonesia,Pacific,id,
+kei-x-besar,Kei Besar,,Indonesia,Pacific,id,
+bnz,Beezen,380,Cameroon,Africa,fr,Beezen
+bqo,Balo,2200,Cameroon,Africa,fr,Balo
+bmv,Bum,24200,Cameroon,Africa,fr,Bum
+nij-x-kapuas,Dayak Kapuas,,Indonesia,Pacific,id,
+bmf,Bom,250,Sierra Leone,Africa,en,Bom
+rof,Rombo,1500000,Tanzania,Africa,sw,Rombo
+seg,Segeju,7000,Tanzania,Africa,sw,Segeju
+bmg,Bamwe,27000,Democratic Republic of the Congo,Africa,fr,Bamwe
+bng,Benga,1000,Equatorial Guinea,Africa,es,Benga
+bpj,Binji,200000,Democratic Republic of the Congo,Africa,fr,Binji
+bqu,Boguru,-1,Democratic Republic of the Congo,Africa,fr,Boguru
+bml,Bomboli,2500,Democratic Republic of the Congo,Africa,fr,Bomboli
+bnl,Boon,59,Somalia,Africa,ar,Boon
+seb,Shempire Senoufo,130000,Côte d’Ivoire,Africa,fr,Sénoufo
+jav-x-tegal,Tegal,,Indonesia,Pacific,id,Tegal
+bwy,Cwi Bwamu,24000,Burkina Faso,Africa,fr,Bwamu
+bxl,Jalkunan,500,Burkina Faso,Africa,fr,Jalkunan
+nme,Mzieme Naga,29000,India,South Asia,en,Naga
+byl,Bayono,100,Indonesia,Pacific,id,Bayono
+skx,Seko Padang,5000,Indonesia,Pacific,id,Seko Padang
+noc,Nuk,1000,Papua New Guinea,Pacific,tpi,Nuk
+mbs,Sarangani Manobo,58000,Philippines,Asia,en,Manobo
+sjb,Sajau Basap,6000,Indonesia,Pacific,id,Sajau Basap
+skz,Sekar,450,Indonesia,Pacific,id,Sekar
+bvt,Bati (Indonesia),3500,Indonesia,Pacific,id,Bati
+byr,Baruya,8250,Papua New Guinea,Pacific,tpi,Yipma
+bvu,Bukit Malay,59000,Indonesia,Pacific,id,Malay
+all,Allar,350,India,South Asia,ml,Allar
+bvn,Buna,830,Papua New Guinea,Pacific,tpi,Buna
+bwp,Mandobo Bawah,20000,Indonesia,Pacific,id,Mandobo Bawah
+sdx,Sibu Melanau,110000,Malaysia,Asia,ms,Melanau
+bwd,Bwaidoka,7500,Papua New Guinea,Pacific,tpi,Bwaidoka
+bxh,Buhutu,1500,Papua New Guinea,Pacific,tpi,Buhutu
+bwk,Bauwaki,600,Papua New Guinea,Pacific,tpi,Bauwaki
+bxa,Tairaha,,Solomon Islands,Pacific,pis,Tairaha
+yka,Yakan,106000,Philippines,Asia,en,Yakan
+byz,Banaro,3100,Papua New Guinea,Pacific,tpi,Banaro
+six,Sumau,2850,Papua New Guinea,Pacific,tpi,Sumau
+sjr,Siar-Lak,2400,Papua New Guinea,Pacific,tpi,Siar-Lak
+sdz,Sallands,,Netherlands,Eurasia,nl,Sallands
+sfe,Eastern Subanen,7000,Philippines,Asia,ceb,Subanen
+aey-x-huar,Huar,,Papua New Guinea,Pacific,tpi,
+bda-x-aramme,Bayote Aramme,2200,Guinea-Bissau,Africa,fr,
+bpr,Koronadal Blaan,150000,Philippines,Asia,ceb,Blaan
+sku,Sakao,,Vanuatu,Pacific,fr,Sakao
+bps,Sarangani Blaan,90800,Philippines,Asia,ceb,Blaan
+sky,Sikaiana,,Solomon Islands,Pacific,pis,Sikaiana
+bvi,Belanda Viri,,South Sudan,Africa,ar,Belanda Viri
+sjb-x-pelancau,Punan Pelan Cau,,Indonesia,Pacific,id,
+clw,Чулымский,270,Russian Federation,Eurasia,ru,Chulym
+bpn,藻敏,70000,China,Asia,zh,Dzao Min
+byo,Biyo,120000,China,Asia,zh,Biyo
+sjo,锡伯语,30000,China,Asia,zh,Xibe
+sbn,سندھی زبان,57000,Pakistan,Eurasia,ur,Sindhi Bhil
+mml,克蔑话,900,China,Asia,zh,Man Met
+scv,Sheni,6,Nigeria,Africa,en,Sheni
+bvj,Baan,5000,Nigeria,Africa,en,Baan
+bxq,Beele,60,Nigeria,Africa,en,Beele
+bxs,Busam,1500,Cameroon,Africa,fr,Busam
+bxp,Bebil,6000,Cameroon,Africa,fr,Bebil
+bwg,Barwe,18000,Mozambique,Americas,pt,Barwe
+bvo,Bolgo,2000,Chad,Africa,ar,Bolgo
+bxg,Bangala,10000,Democratic Republic of the Congo,Africa,fr,Bangala
+byg,Baygo,-1,Sudan,Africa,ar,Baygo
+bvq,Birri,200,Central African Republic,Africa,fr,Birri
+bxk,Bukusu,1530000,Kenya,Africa,sw,Lubukusu
+bwu,Buli (Ghana),173000,Ghana,Africa,en,Buli
+bwl,Bwela,10000,Democratic Republic of the Congo,Africa,fr,Bwela
+bwc,Bwile,35000,Zambia,Americas,en,Bwile
+bwz,Bwisi,4250,Congo,Africa,fr,Bwisi
+shw,Shwai,1800,Sudan,Africa,ar,Shwai
+sfw,Sehwi,290000,Ghana,Africa,en,Sehwi
+snp,Siane,32000,Papua New Guinea,Pacific,tpi,Siane
+nrg,Narango,,Vanuatu,Pacific,fr,Narango
+cas,Tsimané,,Bolivia,Americas,es-419,Tsimané
+smt,Simte,10200,India,South Asia,mni,Simte
+cdf,Chiru,8500,India,South Asia,mni,Chiru
+cdj,Churahi,160000,India,South Asia,pa,Churahi
+nqo,N'Ko,-1,Guinea,Africa,mnk,N’ko
+sjl,Sajalong,6500,India,South Asia,en,Miji
+cga,Changriwa,690,Papua New Guinea,Pacific,tpi,Changriwa
+shl,Shendu,1000,India,South Asia,en,Shendu
+djn,Djauan,,Australia,Pacific,en,Djauan
+coz,Chochotec,,Mexico,Americas,es-419,Chocholtec
+bzb,Andio,1700,Indonesia,Pacific,id,Andio
+chh,Chinook,,United States,Americas,en,Chinook
+chr,Cherokee,,United States,Americas,en,Cherokee
+cao,Chácobo,,Bolivia,Americas,es-419,Chácobo
+bye,Pouye,1050,Papua New Guinea,Pacific,tpi,Pouye
+cav,Cavineña,,Bolivia,Americas,es-419,Cavineña
+sks,Maia,3700,Papua New Guinea,Pacific,tpi,Maia
+slu,Selaru,8000,Indonesia,Pacific,id,Selaru
+cdm,Chepang,25097,Nepal,South Asia,ne,Chepang
+sih,Zire,,New Caledonia,Pacific,en,Sîshëë
+sje,Pite Sami,,Sweden,Eurasia,en,Saami
+chy,Cheyenne,,United States,Americas,en,Cheyenne
+cbl,Bualkhaw Chin,2500,Myanmar,Asia,my,Chin
+chc,Catawba,,United States,Americas,en,Catawba
+byw,Belhariya,600,Nepal,South Asia,ne,Belhariya
+chl,Cahuilla,,United States,Americas,en,Cahuilla
+smb,Simbari,3800,Papua New Guinea,Pacific,tpi,Simbari
+skj,Seke (Nepal),700,Nepal,South Asia,ne,Seke
+cic,Chickasaw,,United States,Americas,en,Chickasaw
+xuu-x-kwedam,Kwedam,,Botswana,Africa,en,
+cal,Carolinian,,Northern Mariana Islands,Pacific,en,Carolinian
+cam,Cemuhî,,New Caledonia,Pacific,en,Cemuhî
+cap,Chipaya,,Bolivia,Americas,es-419,Chipaya
+ccd,Cafundo Creole,20,Brazil,Americas,pt,Cafundo Creole
+caw,Callawalla,,Bolivia,Americas,es-419,Callawalla
+caz,Canichana,,Bolivia,Americas,es-419,Canichana
+cbg,Chimila,,Colombia,Americas,es-419,Chimila
+cbv,Cacua,,Colombia,Americas,es-419,Cacua
+cby,Carabayo,,Colombia,Americas,es-419,Carabayo
+ccc,Chamicuro,,Peru,Americas,es-419,Chamicuro
+myv,Эрзя́нский,37000,Russian Federation,Eurasia,ru,Erzya
+sia,Бабинский,-1,Russian Federation,Eurasia,ru,Saami
+cet,Centúúm,200,Nigeria,Africa,en,Centúúm
+cbq,Tsucuba,6000,Nigeria,Africa,en,Tsucuba
+cbj,Ede Cabe,860000,Benin,Africa,fr,Ede Cabe
+chn,Chinook jargon,,Canada,Americas,en,Chinook Wawa
+chp,Chipewyan,,Canada,Americas,en,Dene
+ckq,Kajakse,13000,Chad,Africa,ar,Kajakse
+ccl,Cutchi-Swahili,52000,Tanzania,Africa,sw,Cutchi-Swahili
+cko,Anufo,158000,Ghana,Africa,en,Anufo
+cae,Lehar,13500,Senegal,Africa,fr,Laalaa
+skt,Sakata,100000,Democratic Republic of the Congo,Africa,fr,Sakata
+chm,Mari (Russia),520000,Russian Federation,Eurasia,ru,Mari
+cpo,Kpeego,2000,Burkina Faso,Africa,fr,Kpeego
+cow,Cowlitz,,United States,Americas,en,Cowlitz
+cdz,Koda,44000,India,South Asia,bn,Koda
+psc,Persian Sign Language,4000000,Iran,Eurasia,fa,Persian Sign Language
+dkr,Kuijau,7900,Malaysia,Asia,ms,Kuijau
+co,corsu,lingua corsa,,France,Eurasia,fr
+spg,Sian,50,Malaysia,Asia,ms,Sian
+spk,Sengo,600,Papua New Guinea,Pacific,tpi,Sengo
+coa,Cocos Islands Malay,4000,Malaysia,Asia,ms,Malay
+clt,Lautu Chin,15000,Myanmar,Asia,my,Chin
+cnb,Chinbon Chin,20000,Myanmar,Asia,my,Chin
+csy,Siyin Chin,8000,Myanmar,Asia,my,Chin
+sm,gagana fa'a Samoa,,Samoa,Pacific,en,Samoan
+cno,Con,3200,Laos,Asia,lo,Con
+smu,Somray,2,Cambodia,Asia,km,Somray
+coo,Comox,,Canada,Americas,en,Comox
+ctg,Chittagonian,14300000,Bangladesh,South Asia,bn,Chittagonian
+sou,Southern Thai,5000000,Thailand,Asia,th,Thai
+crk,Plains Cree,,Canada,Americas,en,Cree
+cky,Cakfem-Mushere,5000,Nigeria,Africa,en,Cakfem-Mushere
+csi,Coast Miwok,,United States,Americas,en,Miwok
+sny,Saniyo-Hiyewe,1500,Papua New Guinea,Pacific,tpi,Saniyo-Hiyewe
+spl,Selepet,9000,Papua New Guinea,Pacific,tpi,Selepet
+csr,Costa Rican Sign Language,,Costa Rica,Americas,es-419,Costa Rican Sign Language
+com,Comanche,,United States,Americas,en,Comanche
+gvs,Gumawana,470,Papua New Guinea,Pacific,tpi,Gumawana
+cqu,Chilean Quechua,,Chile,Americas,es-419,Quechua
+crd,Coeur d'Alene,,United States,Americas,en,Coeur d’Alene
+cks,Tayo,,New Caledonia,Pacific,en,Tayo
+puc-x-kayanmerap,Kayan Merap,,Indonesia,Pacific,id,
+cle,Lealao Chinantec,,Mexico,Americas,es-419,Chinantec
+clm,Clallam,,United States,Americas,en,Clallam
+cop,لغة قبطية,-1,Egypt,Africa,ar,Coptic
+clh,چیلیسو,2300,Pakistan,Eurasia,ur,Chilisso
+cog,ภาษาชอง,450,Thailand,Asia,th,Chong
+sox,Swo,9000,Cameroon,Africa,fr,Swo
+soz,Temi,35000,Tanzania,Africa,sw,Temi
+coe,Koreguaje,,Colombia,Americas,es-419,Koreguaje
+cof,Colorado,,Ecuador,Americas,es-419,Colorado
+cox,Nanti,,Peru,Americas,es-419,Nanti
+cpi,Chinese Pidgin English,,Nauru,Pacific,en,Chinese Pidgin English
+cps,Capiznon,639000,Philippines,Asia,en,Capiznon
+crg,Michif,,United States,Americas,en,Michif
+cro,Crow,,United States,Americas,en,Crow
+csg,Chilean Sign Language,,Chile,Americas,es-419,Chilean Sign Language
+cmt,Camtho,200000,South Africa,Americas,en,Camtho
+grv,Central Grebo,50000,Liberia,Africa,en,Grebo
+csw,Swampy Cree,,Canada,Americas,en,Cree
+cll,Chala,2500,Ghana,Africa,en,Chala
+nr,isiNdebele,1300000,South Africa,Americas,en,Southern Ndebele
+cri,Sãotomense,83000,São Tomé e Príncipe,Africa,pt,Sãotomense
+cr,ᓀᐦᐃᔭᐍᐏᐣ,96000,Canada,Americas,en,Cree
+niu,Niuean,,Niue,Pacific,en,Niue
+dhd,Dhundari,9600000,India,South Asia,raj,Dhundari
+dgi,Northern Dagara,250000,Burkina Faso,Africa,fr,Dagara
+cpg,Cappadocian Greek,,Greece,Eurasia,en,Cappadocian Greek
+srl,Isirawa,1800,Indonesia,Pacific,id,Isirawa
+ctm,Chitimacha,,United States,Americas,en,Chitimacha
+cut,Teutila Cuicatec,,Mexico,Americas,es-419,Cuicatec
+cup,Cupeño,,United States,Americas,en,Cupeño
+soc,So (Democratic Republic of Congo),6000,Democratic Republic of the Congo,Africa,fr,So
+dem,Dem,1000,Indonesia,Pacific,id,Dem
+daz,Dao,250,Indonesia,Pacific,id,Dao
+cwd,Woods Cree,,Canada,Americas,en,Cree
+dbe,Dabe,440,Indonesia,Pacific,id,Dabe
+ssq,So'a,10000,Indonesia,Pacific,id,So’a
+srt,Sauri,100,Indonesia,Pacific,id,Sauri
+ayg-x-anyagan,Anyagan,17200,Togo,Africa,fr,
+csv,Sumtu Chin,14000,Myanmar,Asia,my,Chin
+srg,Sulod,14000,Philippines,Asia,en,Sulod
+soq,Kanasi,2600,Papua New Guinea,Pacific,tpi,Kanasi
+cth,Thaiphum Chin,1000,Myanmar,Asia,my,Chin
+czt,Zotung Chin,40000,Myanmar,Asia,my,Chin
+dgr,Dogrib,,Canada,Americas,en,Dogrib
+cuw,Chukwa,5,Nepal,South Asia,ne,Chukwa
+iqu,Iquito,,Peru,Americas,es-419,Iquito
+csz,Coos,,United States,Americas,en,Coos
+dac,Dambi,400,Papua New Guinea,Pacific,tpi,Dambi
+cuc,Usila Chinantec,,Mexico,Americas,es-419,Chinantec
+sqq,Sou,2750,Laos,Asia,lo,Sou
+cyb,Cayubaba,,Bolivia,Americas,es-419,Cayubaba
+cy,Cymraeg,,United Kingdom,Eurasia,en,Welsh
+ded,Dedua,7500,Papua New Guinea,Pacific,tpi,Dedua
+ddi,West Goodenough,2500,Papua New Guinea,Pacific,tpi,Goodenough
+ssj,Sausi,80,Papua New Guinea,Pacific,tpi,Sausi
+daw,Davawenyo,147000,Philippines,Asia,ceb,Davawenyo
+dax,Dayi,,Australia,Pacific,en,Dayi
+sso,Sissano,200,Papua New Guinea,Pacific,tpi,Sissano
+dgx,Doghoro,300,Papua New Guinea,Pacific,tpi,Doghoro
+dgz,Daga,10000,Papua New Guinea,Pacific,tpi,Daga
+dad,Marik,4150,Papua New Guinea,Pacific,tpi,Marik
+dgg,Doga,190,Papua New Guinea,Pacific,tpi,Doga
+put-x-dayakabai,Dayak Abai,,Indonesia,Pacific,id,
+cua,Tiếng Co,12000,Vietnam,Asia,vi,Cua
+xdy-x-dayaksuruk,Dayak Suruk,,Indonesia,Pacific,id,
+deg,Degema,10000,Nigeria,Africa,en,Degema
+dhi,धिमाल,17000,Nepal,South Asia,ne,Dhimal
+xdy-x-ingarsilat,Dayak Ingar Silat,,Indonesia,Pacific,id,
+ddn,Dendi (Benin),39000,Benin,Africa,fr,Dendi
+cug,Cung,2000,Cameroon,Africa,fr,Cung
+tel-x-telingu,Telingu,,Sri Lanka,South Asia,te,
+dai,Day,62000,Chad,Africa,ar,Day
+cwt,Kuwaataay,7000,Senegal,Africa,fr,Kuwaataay
+cuh,Chuka,209000,Kenya,Africa,sw,Gichuka
+cwb,Maindo,24000,Mozambique,Americas,pt,Maindo
+dgk,Dagba,49000,Central African Republic,Africa,fr,Dagba
+dal,Dahalo,250,Kenya,Africa,sw,Dahalo
+dez,Dengese,10000,Democratic Republic of the Congo,Africa,fr,Dengese
+dee,Dewoin,14000,Liberia,Africa,en,Dewoin
+cwa,Kabwa,8500,Tanzania,Africa,sw,Kabwa
+soo,Songo,15000,Democratic Republic of the Congo,Africa,fr,Songo
+bcv-x-bandawa,Bandawa,,Nigeria,Africa,en,Bandawa
+din,Dinka,5000000,South Sudan,Africa,en,Dinka
+dji,Djinang,,Australia,Pacific,en,Djinang
+diy,Diuwe,100,Indonesia,Pacific,id,Diuwe
+dkk,Dakka,1200,Indonesia,Pacific,id,Dakka
+dok,Dondo,13000,Indonesia,Pacific,id,Dondo
+spq,Loreto-Ucayali Spanish,,Peru,Americas,es-419,Spanish
+ray,Rapa,,French Polynesia,Pacific,fr,Rapa
+sve,Serili,328,Indonesia,Pacific,id,Serili
+ulu,Uma' Lung,3000,Indonesia,Pacific,id,Uma’ Lung
+srm,Saramaccan,,Suriname,Americas,nl,Saramaccan
+dij,Dai,820,Indonesia,Pacific,id,Dai
+djo,Jangkang,37000,Indonesia,Pacific,id,Jangkang
+dpp,Papar,1000,Malaysia,Asia,ms,Papar
+dtr,Lotud,5000,Malaysia,Asia,ms,Lotud
+dju,Kapriman,1800,Papua New Guinea,Pacific,tpi,Kapriman
+sug,Suganga,390,Papua New Guinea,Pacific,tpi,Suganga
+dnr,Danaru,290,Papua New Guinea,Pacific,tpi,Danaru
+dol,Doso,480,Papua New Guinea,Pacific,tpi,Doso
+dmc,Gavak,3550,Papua New Guinea,Pacific,tpi,Gavak
+dof,Domu,790,Papua New Guinea,Pacific,tpi,Domu
+stp,Southeastern Tepehuan,,Mexico,Americas,es-419,Tepehuan
+njr,Njerep,6,Nigeria,Africa,en,Njerep
+ssp,Spanish Sign Language,,Spain,Eurasia,es,Spanish Sign Language
+puj-x-punanbengalan,Punan Bengalan,,Indonesia,Pacific,id,
+sva,ლუშნუ ნინ,20000,Georgia,Eurasia,ru,Svan
+doq,Dominican Sign Language,,Dominican Republic,Americas,es-419,Dominican Sign Language
+sqa,Shama-Sambuga,5000,Nigeria,Africa,en,Shama-Sambuga
+sur,Mwaghavul,300000,Nigeria,Africa,en,Mwaghavul
+drt,Drents,,Netherlands,Eurasia,nl,Drents
+dio,Dibo,100000,Nigeria,Africa,en,Dibo
+dir,Dirim,9000,Nigeria,Africa,en,Dirim
+drc,Minderico,,Portugal,Eurasia,pt,Minderico
+dty,डोटेली,250000,Nepal,South Asia,ne,Dotyali
+knl-x-kenyilu,Dayak Kenyilu,,Indonesia,Pacific,id,
+njj,Njen,1800,Cameroon,Africa,fr,Njen
+svc,Vincentian Creole English,,Saint Vincent and the Grenadines,Americas,en,Vincentian Creole English
+dkx,Mazagway,17000,Cameroon,Africa,fr,Mazagway
+svs,Savosavo,,Solomon Islands,Pacific,pis,Savosavo
+dwr,Dawro,543000,Ethiopia,Africa,am,Dawro
+sut,Subtiaba,,Nicaragua,Americas,es-419,Subtiaba
+kgo-x-krongoabdalla,Krongo Abdalla,,Kenya,Africa,en,
+dtu,Tebul Ure Dogon,3500,Mali,Africa,fr,Dogon
+dto,Tommo So Dogon,72000,Mali,Africa,fr,Dogon
+dsi,Disa,2800,Chad,Africa,ar,Disa
+dhx,Dhungaloo,,Australia,Pacific,en,Dhungaloo
+suw,Sumbwa,147000,Tanzania,Africa,sw,Sumbwa
+dif,Dieri,,Australia,Pacific,en,Dieri
+dhs,Dhaiso,4000,Tanzania,Africa,sw,Dhaiso
+dlk,Dahalik,2500,Eritrea,Africa,ar,Dahalik
+dor,Dori'o,,Solomon Islands,Pacific,pis,Dori’o
+drb,Dair,400,Sudan,Africa,ar,Dair
+dil,Dilling,16000,Sudan,Africa,ar,Dilling
+diz,Ding,160000,Democratic Republic of the Congo,Africa,fr,Ding
+drs,Gedeo,1040000,Ethiopia,Africa,am,Gedeo
+doo,Dongo,15000,Democratic Republic of the Congo,Africa,fr,Dongo
+dtd,Ditidaht,,Canada,Americas,en,Ditidaht
+dma,Duma,12000,Gabon,Africa,fr,Duma
+sus,Susu,1100000,Guinea,Africa,fr,Susu
+snj,Riverain Sango,42000,Central African Republic,Africa,fr,Sango
+doi,Dogri (macrolanguage),3000000,India,South Asia,hi,Dogri
+dix,Dixon Reef,50,Vanuatu,Pacific,fr,Dixon Reef
+dln,Darlong,6000,India,South Asia,as,Darlong
+suv,Puroik,20000,India,South Asia,en,Puroik
+esh,Eshtehardi,8500,Iran,Eurasia,fa,Eshtehardi
+spd,Saep,600,Papua New Guinea,Pacific,tpi,Saep
+dui,Dumun,20,Papua New Guinea,Pacific,tpi,Dumun
+duv,Duvle,930,Indonesia,Pacific,id,Duvle
+emw,Emplawas,220,Indonesia,Pacific,id,Emplawas
+taz,Tocho,2650,Sudan,Africa,ar,Tocho
+dzn,Dzando,6000,Democratic Republic of the Congo,Africa,fr,Dzando
+erw,Erokwanas,150,Indonesia,Pacific,id,Erokwanas
+end,Ende,110000,Indonesia,Pacific,id,Ende
+duw,Dusun Witu,5000,Indonesia,Pacific,id,Dusun Witu
+szb,Ngalum,10000,Indonesia,Pacific,id,Ngalum
+rol,Romblomanon,94000,Philippines,Asia,en,Romblomanon
+duj,Dhuwal,,Australia,Pacific,en,Dhuwal
+sza,Semelai,4100,Malaysia,Asia,ms,Semelai
+swg,Swabian,,Germany,Eurasia,en,Swabian
+syo,Suoy,450,Cambodia,Asia,km,Suoy
+eli,Nding,-1,Sudan,Africa,ar,Nding
+enc,En,200,Vietnam,Asia,vi,En
+ekl,Kol (Bangladesh),1800,Bangladesh,South Asia,bn,Kol
+ele,Elepi,120,Papua New Guinea,Pacific,tpi,Elepi
+elk,Elkei,1900,Papua New Guinea,Pacific,tpi,Elkei
+syb,Central Subanen,140000,Philippines,Asia,ceb,Subanen
+ena,Apali,1070,Papua New Guinea,Pacific,tpi,Apali
+eri,Ogea,2450,Papua New Guinea,Pacific,tpi,Ogea
+prt,Phai,23000,Thailand,Asia,th,Prai
+dva,Duau,4500,Papua New Guinea,Pacific,tpi,Duau
+esu,Central Yupik,,United States,Americas,en,Yupik
+swc,Congo Swahili,10000000,Democratic Republic of the Congo,Africa,fr,Swahili
+enl,Enlhet,,Paraguay,Americas,es-419,Enlhet
+enu,西摩洛,14000,China,Asia,zh,Enu
+dmk,ڈوماکی,400,Pakistan,Eurasia,ur,Domaaki
+sxg,旭米,1800,China,Asia,zh,Shixing
+env,Enwan (Edu State),14000,Nigeria,Africa,en,Enwan
+eki,Eki,5000,Nigeria,Africa,en,Eki
+etb,Etebi,220000,Nigeria,Africa,en,Etebi
+enx,Enxet,,Paraguay,Americas,es-419,Enxet
+dwa,Diri,7200,Nigeria,Africa,en,Diri
+dza,Tunzuii,2500,Nigeria,Africa,en,Tunzuii
+tav,Tatuyo,,Colombia,Americas,es-419,Tatuyo
+ebg,Ebughu,5000,Nigeria,Africa,en,Ebughu
+esq,Esselen,,United States,Americas,en,Esselen
+ekr,Yace,50000,Nigeria,Africa,en,Yace
+erh,Eruwa,64000,Nigeria,Africa,en,Eruwa
+njy,Njyem,3500,Cameroon,Africa,fr,Njyem
+duf,Dumbea,,New Caledonia,Pacific,en,Drubea
+emn,Eman,800,Cameroon,Africa,fr,Eman
+eaa,Karenggapa,,Australia,Pacific,en,Karenggapa
+eto,Eton (Cameroon),59000,Cameroon,Africa,fr,Eton
+dym,Yanda Dom Dogon,2000,Mali,Africa,fr,Dogon
+emx,Erromintxela,,France,Eurasia,fr,Erromintxela
+eo,Esperanto,,Poland,Eurasia,en,Esperanto
+eso,Estonian Sign Language,,Estonia,Eurasia,en,Estonian Sign Language
+esl,لغة الإشارة المصرية,474000,Egypt,Africa,ar,Egyptian Sign Language
+tag,Tagoi,17000,Sudan,Africa,ar,Tagoi
+swk,Malawi Sena,340000,Malawi,Americas,en,Sena
+nkk,Nokuku,,Vanuatu,Pacific,fr,Nokuku
+tck,Tchitchege,1700,Gabon,Africa,fr,Tchitchege
+vsl,Venezuelan Sign Language,,Venezuela,Americas,es-419,Venezuelan Sign Language
+gbi,Galela,80000,Indonesia,Pacific,id,Galela
+flh,Foau,350,Indonesia,Pacific,id,Foau
+gak,Gamkonora,1500,Indonesia,Pacific,id,Gamkonora
+tcm,Tanahmerah,500,Indonesia,Pacific,id,Tanahmerah
+tcg,Tamagario,3500,Indonesia,Pacific,id,Tamagario
+nks,North Asmat,1000,Indonesia,Pacific,id,Asmat
+frq,Forak,300,Papua New Guinea,Pacific,tpi,Forak
+tco,Taungyo,40000,Myanmar,Asia,my,Taungyo
+tcp,Tawr Chin,700,Myanmar,Asia,my,Chin
+tcn,Tichurong,2800,Nepal,South Asia,ne,Tichurong
+tcl,Taman (Myanmar),-1,Myanmar,Asia,my,Taman
+ite,Itene,,Bolivia,Americas,es-419,Itene
+eya,Eyak,,United States,Americas,en,Eyak
+for,Fore,21200,Papua New Guinea,Pacific,tpi,Fore
+gbe,Niksek,1050,Papua New Guinea,Pacific,tpi,Niksek
+fai,Faiwol,4500,Papua New Guinea,Pacific,tpi,Faiwol
+ffi,Foia Foia,180,Papua New Guinea,Pacific,tpi,Foia Foia
+foi,Foi,3600,Papua New Guinea,Pacific,tpi,Foi
+fy,Frysk,,Netherlands,Eurasia,nl,Western Frisian
+gaf,Gende,10500,Papua New Guinea,Pacific,tpi,Gende
+gah,Alekano,29000,Papua New Guinea,Pacific,tpi,Alekano
+gai,Borei,2300,Papua New Guinea,Pacific,tpi,Mbore
+fut,Futuna-Aniwa,,Vanuatu,Pacific,fr,Futuna-Aniwa
+gam,Kandawo,4550,Papua New Guinea,Pacific,tpi,Kandawo
+gao,Gants,1880,Papua New Guinea,Pacific,tpi,Gants
+gat,Kenati,1200,Papua New Guinea,Pacific,tpi,Kenati
+faf,Fagani,,Solomon Islands,Pacific,pis,Fagani
+tca,Ticuna,47000,Brazil,Americas,pt,Ticuna
+fo,føroyskt,,Denmark,Eurasia,en,Faroese
+frt,Fortsenal,,Vanuatu,Pacific,fr,Fortsenal
+fwa,Fwâi,,New Caledonia,Pacific,en,Fwâi
+byd-x-kerabat,Suku Dayak Kerabat,,Indonesia,Pacific,id,
+eve,Эвенский,5700,Russian Federation,Eurasia,ru,Even
+eze,Uzekwe,5000,Nigeria,Africa,en,Uzekwe
+knl-x-kubing,Dayak Kubing,,Indonesia,Pacific,id,
+fod,Foodo,30000,Benin,Africa,fr,Foodo
+gbb,Kaytetye,,Australia,Pacific,en,Kaytetye
+fue,Borgu Fulfulde,330000,Benin,Africa,fr,Fulfulde
+gbh,Defi Gbe,16000,Benin,Africa,fr,Gbe
+fak,Fang (Cameroon),2400,Cameroon,Africa,fr,Fang
+fll,North Fali,21000,Cameroon,Africa,fr,Fali
+nij-x-kahayan,Dayak Kahayan,,Indonesia,Pacific,id,
+fui,Bagirmi Fulfulde,24000,Chad,Africa,ar,Fulfulde
+isn,Isanzu,32000,Tanzania,Africa,sw,Isanzu
+fer,Feroge,10000,South Sudan,Africa,ar,Feroge
+flr,Fuliiru,420000,Democratic Republic of the Congo,Africa,fr,Fuliiru
+fum,Fum,68000,Nigeria,Africa,en,Fum
+fuu,Furu,20000,Democratic Republic of the Congo,Africa,fr,Furu
+gaa,Ga,850000,Ghana,Africa,en,Ga
+eyo,Keiyo,345000,Kenya,Africa,sw,Keiyo
+fuj,Ko,2700,Sudan,Africa,ar,Ko
+tbt,Tembo (Kitembo),180000,Democratic Republic of the Congo,Africa,fr,Tembo
+tcd,Tafi,12000,Ghana,Africa,en,Tafi
+ssy,Saho,210000,Eritrea,Africa,ar,Saho
+gcl,Grenadian Creole English,,Grenada,Americas,en,Grenadian Creole English
+gcn,Gaina,1400,Papua New Guinea,Pacific,tpi,Gaina
+nll,Nihali,2000,India,South Asia,mr,Nihali
+tcx,Toda,1600,India,South Asia,ta,Toda
+gim,Gimi (Eastern Highlands),31000,Papua New Guinea,Pacific,tpi,Gimi
+tdi,Tomadino,500,Indonesia,Pacific,id,Tomadino
+ggl,Ganglau,450,Papua New Guinea,Pacific,tpi,Ganglau
+gei,Gebe,2000,Indonesia,Pacific,id,Gebe
+tip,Trimuris,300,Indonesia,Pacific,id,Trimuris
+tdf,Talieng,32000,Laos,Asia,lo,Talieng
+gex,Garre,50000,Somalia,Africa,ar,Garre
+gib,Gibanawa,-1,Nigeria,Africa,en,Gibanawa
+tio,Teop,6300,Papua New Guinea,Pacific,tpi,Teop
+gdc,Gugu Badhun,,Australia,Pacific,en,Gugu Badhun
+tlf,Telefol,6500,Papua New Guinea,Pacific,tpi,Telefol
+geb,Kire,2500,Papua New Guinea,Pacific,tpi,Kire
+gip,Gimi (West New Britain),3700,Papua New Guinea,Pacific,tpi,Gimi
+gka,Guya,60,Papua New Guinea,Pacific,tpi,Guya
+gpn,Taiap,75,Papua New Guinea,Pacific,tpi,Taiap
+kff-x-doralakoya,Doralakoya,,India,South Asia,te,
+gig,Goaria,26000,Pakistan,Eurasia,ur,Goaria
+bdb-x-menaburkecil,Menabur Kecil,,Indonesia,Pacific,id,
+gl,galego,,Spain,Eurasia,es,Galician
+gin,Гинухский,350,Russian Federation,Eurasia,ru,Hinukh
+kcy,البلبالية,3300,Algeria,Africa,ar,Korandje
+tix,Southern Tiwa,,United States,Americas,en,Tiwa
+day-x-dayakmali,Dayak Mali,,Indonesia,Pacific,id,
+tgs,Nume,,Vanuatu,Pacific,fr,Nume
+gmg,Magɨyi,,Papua New Guinea,Pacific,tpi,Magiyi
+thh,Northern Tarahumara,,Mexico,Americas,es-419,Tarahumara
+eee,诶话,30000,China,Asia,zh,E
+tcw,Tecpatlán Totonac,,Mexico,Americas,es-419,Totonac
+fah,Baissa Fali,20,Nigeria,Africa,en,Fali of Baissa
+gkn,Gokana,130000,Nigeria,Africa,en,Gokana
+tls,Tambotalo,,Vanuatu,Pacific,fr,Tambotalo
+thy,Tha,1000,Nigeria,Africa,en,Tha
+gea,Geruma,9000,Nigeria,Africa,en,Geruma
+gdg,Ga'dang,6000,Philippines,Asia,ilo,Ga’dang
+ged,Gade,72000,Nigeria,Africa,en,Gade
+ghn,Ghanongga,,Solomon Islands,Pacific,pis,Ghanongga
+ghr,Ghera,10000,Pakistan,Eurasia,ur,Ghera
+gmd,Mághdì,2000,Nigeria,Africa,en,Mághdì
+gmv,Gamo,1300000,Ethiopia,Africa,am,Gamo
+knl-x-kubin,Dayak Kubin,,Indonesia,Pacific,id,
+gke,Ndai,20,Cameroon,Africa,fr,Ndai
+iba-x-kancing'k,Dayak Kancing'k,,Indonesia,Pacific,id,
+glj,Gula Iro,3500,Chad,Africa,ar,Gula Iro
+teo,Teso,1800000,Uganda,Africa,en,Teso
+kiv,Kimbu,78000,Tanzania,Africa,sw,Kimbu
+xdy-x-dayaktebidah,Dayak Tebidah,,Indonesia,Pacific,id,
+gev,Eviya,15,Gabon,Africa,fr,Eviya
+gic,Gail,-1,South Africa,Americas,en,Gail
+ggu,Gagu,63000,Côte d’Ivoire,Africa,fr,Gban
+geq,Geme,430,Central African Republic,Africa,fr,Geme
+gix,Gilima,16000,Democratic Republic of the Congo,Africa,fr,Gilima
+gjn,Gonja,260000,Ghana,Africa,en,Gonja
+gdi,Gundi,11500,Central African Republic,Africa,fr,Gundi
+tii,Tiene,33000,Democratic Republic of the Congo,Africa,fr,Tiene
+tiw,Tiwi,,Australia,Pacific,en,Tiwi
+gnu,Gnau,1300,Papua New Guinea,Pacific,tpi,Gnau
+goq,Gorap,1000,Indonesia,Pacific,id,Gorap
+tni,Tandia,-1,Indonesia,Pacific,id,Tandia
+tpf,Tarpia,300,Indonesia,Pacific,id,Tarpia
+xtu,Cuyamecalco Mixtec,,Mexico,Americas,es-419,Mixtec
+grm,Kota Marudu Talantang,1800,Malaysia,Asia,ms,Kota Marudu Talantang
+gnq,Gana,1000,Malaysia,Asia,ms,Gana
+nlq,Lao Naga,110000,Myanmar,Asia,my,Naga
+tkz,Takua,6700,Vietnam,Asia,vi,Takua
+itr,Iteri,310,Papua New Guinea,Pacific,tpi,Iteri
+tll,Tetela,930000,Democratic Republic of the Congo,Africa,fr,Tetela
+grz,Guramalum,-1,Papua New Guinea,Pacific,tpi,Guramalum
+gsn,Gusan,800,Papua New Guinea,Pacific,tpi,Gusan
+grg,Madi,280,Papua New Guinea,Pacific,tpi,Madi
+gvf,Golin,65000,Papua New Guinea,Pacific,tpi,Golin
+tpa,Taupota,1300,Papua New Guinea,Pacific,tpi,Taupota
+grw,Gweda,19,Papua New Guinea,Pacific,tpi,Gweda
+gsp,Wasembo,590,Papua New Guinea,Pacific,tpi,Wasembo
+gve,Duwet,400,Papua New Guinea,Pacific,tpi,Duwet
+tel-x-sikaari,Sikaari,,India,South Asia,te,
+tkd,Tukudede,43500,East Timor,Pacific,pt,Tukudede
+gue,Gurinji,,Australia,Pacific,en,Gurinji
+gta,Guató,4,Brazil,Americas,pt,Guató
+gry,Barclayville Grebo,41000,Liberia,Africa,en,Grebo
+gnr,Gureng Gureng,,Australia,Pacific,en,Gureng Gureng
+tit,Tinigua,,Colombia,Americas,es-419,Tinigua
+gup,Gunwinggu,,Australia,Pacific,en,Gunwinggu
+tji,土家语,70000,China,Asia,zh,Tujia
+gss,Greek Sign Language,,Greece,Eurasia,en,Greek Sign Language
+hle,勒苏,15000,China,Asia,zh,Hlersu
+yit,东腊鲁语,38000,China,Asia,zh,Lalu
+tiu,Adasen,4000,Philippines,Asia,ilo,Adasen
+tiy,Tiruray,50000,Philippines,Asia,en,Tiruray
+hov-x-punanuheng,Dayak Punan Uheng,,Indonesia,Pacific,id,Dayak Punan Uheng
+gvm,Gurmana,3000,Nigeria,Africa,en,Gurmana
+gpa,Gupa-Abawa,15000,Nigeria,Africa,en,Gupa-Abawa
+gwb,Gwa,980,Nigeria,Africa,en,Gwa
+tkb,Buksa,1530000,India,South Asia,hi,Buksa
+lbx-x-mantarapkabut,Dayak Mantarap Kabut,,Indonesia,Pacific,id,
+guv,Gey,-1,Cameroon,Africa,fr,Gey
+goy,Goundo,25,Chad,Africa,ar,Goundo
+goz,Gozarkhani,100,Iran,Eurasia,fa,Gozarkhani
+gqr,Gor,96000,Chad,Africa,ar,Gor
+gut,Maléku Jaíka,,Costa Rica,Americas,es-419,Maléku Jaíka
+gow,Gorowa,59000,Tanzania,Africa,sw,Gorowa
+tnb,Western Tunebo,,Colombia,Americas,es-419,Tunebo
+msm-x-manguangan,Manguangan,,Philippines,Pacific,ceb,Manguangan
+gzi,Gazi,7000,Iran,Eurasia,fa,Gazi
+tpj,Tapieté,,Paraguay,Americas,es-419,Ñandeva
+gza,Ganza,3000,Sudan,Africa,ar,Ganza
+gnz,Ganzi,1400,Central African Republic,Africa,fr,Ganzi
+gus,Guinean Sign Language,550,Guinea,Africa,fr,Guinean Sign Language
+guz,Gusii,2400000,Kenya,Africa,sw,Ekegusii
+gum,Guambiano,,Colombia,Americas,es-419,Guambiano
+guo,Guayabero,,Colombia,Americas,es-419,Guayabero
+tka,Truká,-1,Brazil,Americas,pt,Truká
+gub,Guajajára,15000,Brazil,Americas,pt,Guajajára
+gyr,Guarayu,,Bolivia,Americas,es-419,Guarayu
+har,Harari,140000,Ethiopia,Africa,am,Harari
+zlm-x-melaypesisir,Melayu Pesisir,,Indonesia,Pacific,id,Coastal Malay
+tel-x-thalaboomi,Thalaboomi,,India,South Asia,te,Thalaboomi
+grb,Grebo,400000,Liberia,Africa,en,Grebo
+hai,Haida,13,Canada,Americas,en,Haida
+nly,Nyamal,,Australia,Pacific,en,Nyamal
+hra,Hrangkhol,19000,India,South Asia,as,Hrangkhol
+xua,Alu Kurumba,2500,India,South Asia,ta,Kurumba
+hji,Haji,17500,Indonesia,Pacific,id,Haji
+hrk,Haruku,18200,Indonesia,Pacific,id,Haruku
+tpg,Kula,5000,Indonesia,Pacific,id,Kula
+hmu,Hamap,900,Indonesia,Pacific,id,Hamap
+tow,Jemez,,United States,Americas,en,Jemez
+swr,Saweru,300,Indonesia,Pacific,id,Saweru
+htu,Hitu,16000,Indonesia,Pacific,id,Hitu
+hig,Kamwe,300000,Nigeria,Africa,en,Kamwe
+ttz,Tsum,5000,Nepal,South Asia,ne,Tsum
+kqc,Doromu-Koki,1500,Papua New Guinea,Pacific,tpi,Doromu-Koki
+hla,Halia,24000,Papua New Guinea,Pacific,tpi,Halia
+tos,Highland Totonac,,Mexico,Americas,es-419,Totonac
+haf,Ngôn ngữ ký hiệu Hải Phòng,,Vietnam,Asia,vi,Haiphong Sign Language
+tox,Tobian,,Palau,Pacific,en,Tobian
+hal,Halang,15000,Vietnam,Asia,vi,Halang
+hro,Haroi,270000,Vietnam,Asia,vi,Haroi
+ttg,Tutong,15000,Brunei,Asia,ms,Tutong
+hao,Haku,6600,Papua New Guinea,Pacific,en,Hakö
+ham,Hewa,2000,Papua New Guinea,Pacific,tpi,Hewa
+hgw,Haigwai,1060,Papua New Guinea,Pacific,tpi,Haigwai
+tqu,Touo,,Solomon Islands,Pacific,pis,Touo
+kan-x-thigularu,Thigularu,,India,South Asia,kn,
+hmt,Hamtai,53500,Papua New Guinea,Pacific,tpi,Hamtai
+tov,Upper Taromi,800,Iran,Eurasia,fa,Taromi
+hbu,Habu,2900,East Timor,Pacific,pt,Habun
+tnq,Taino,,Puerto Rico,Americas,es-419,Taíno
+hnd,ہندکو,700000,Pakistan,Eurasia,ur,Hindko
+hks,Hong Kong Sign Language,20000,China–Hong Kong,Asia,zh,Hong Kong Sign Language
+tri,Trió,2456,Suriname,Americas,nl,Trió
+pud-x-punanbirun,Punan Birun,,Indonesia,Pacific,id,
+huo,户语,1000,China,Asia,zh,Hu
+hmp,麻山,35000,China,Asia,zh,Miao
+hmm,中部土语,70000,China,Asia,zh,Miao
+hmv,Mông Đỏ,7000,Vietnam,Asia,vi,Hmong Dô
+hdn,Northern Haida,,Canada,Americas,en,Haida
+hmf,Mông Don,700000,Vietnam,Asia,vi,Hmong Don
+hii,Hinduri,30000,India,South Asia,hi,Hinduri
+hbb,Huba,310000,Nigeria,Africa,en,Nya Huba
+hiw,Hiw,,Vanuatu,Pacific,fr,Hiw
+hmc,Central Huishui Hmong,40000,China,Asia,zh,Miao
+hme,Eastern Huishui Hmong,14000,China,Asia,zh,Miao
+hij,Hijuk,300,Cameroon,Africa,fr,Hijuk
+dmo,Kemezung,3540,Cameroon,Africa,fr,Kemedzung
+toz,To,-1,Cameroon,Africa,fr,To
+haq,Ha,1170000,Tanzania,Africa,sw,Ha
+heh,Hehe,900000,Tanzania,Africa,sw,Hehe
+hba,Hamba,15000,Democratic Republic of the Congo,Africa,fr,Hamba
+hav,Havu,585000,Democratic Republic of the Congo,Africa,fr,Havu
+huv,San Mateo Del Mar Huave,,Mexico,Americas,es-419,Huave
+hbn,Heiban,3500,Sudan,Africa,ar,Heiban
+tsv,Tsogo,17000,Gabon,Africa,fr,Tsogo
+ttl,Totela,25000,Zambia,Americas,en,Totela
+hir,Himarimã,30,Brazil,Americas,pt,Himarimã
+tpk,Tupinikin,-1,Brazil,Americas,pt,Tupinikin
+tpy,Trumai,45,Brazil,Americas,pt,Trumai
+hrx,Hunsrik,3000000,Brazil,Americas,pt,Hunsrik
+nmb,Big Nambas,,Vanuatu,Pacific,fr,V’ënen Taut
+huf,Humene,940,Papua New Guinea,Pacific,tpi,Humene
+isa,Isabi,280,Papua New Guinea,Pacific,tpi,Isabi
+mib,Atatláhuca Mixtec,,Mexico,Americas,es-419,Mixtec
+kfy-x-soriyali,Soriyali,,India,South Asia,hi,
+hui,Huli,157000,Papua New Guinea,Pacific,tpi,Huli
+ima,Mala Malasar,1000,India,South Asia,ml,Mala Malasar
+hul,Hula,3300,Papua New Guinea,Pacific,tpi,Hula
+ibu,Ibu,10,Indonesia,Pacific,id,Ibu
+ife,Ifè,127000,Togo,Africa,fr,Ifè
+irh,Irarutu,4000,Indonesia,Pacific,id,Irarutu
+tvo,Tidore,26000,Indonesia,Pacific,id,Tidore
+tvm,Tela-Masbuar,1100,Indonesia,Pacific,id,Tela-Masbuar
+ise,Italian Sign Language,,Italy,Eurasia,en,Italian Sign Language
+imr,Imroing,560,Indonesia,Pacific,id,Imroing
+hur,Halkomelem,,Canada,Americas,en,Halkomelem
+is,Íslenska,,Iceland,Eurasia,en,Icelandic
+iou,Tuma-Irumu,1100,Papua New Guinea,Pacific,tpi,Tuma-Irumu
+iba,Iban,790000,Malaysia,Asia,ms,Iban
+jic,Tol,,Honduras,Americas,es-419,Tol
+tvn,Tavoyan,400000,Myanmar,Asia,my,Tavoyan
+kml-x-lubo,Lubo,,Philippines,Asia,ilo,
+lgw,Lougwau,2000,Papua New Guinea,Pacific,en,
+idt,Idaté,15000,East Timor,Pacific,pt,Idaté
+ifa,Amganad Ifugao,27100,Philippines,Asia,en,Ifugao
+irr,Ir,5900,Laos,Asia,lo,Ir
+tpo,Tai Pao,4000,Laos,Asia,lo,Tai Pao
+hub,Huambisa,,Peru,Americas,es-419,Huambisa
+huh,Huilliche,,Chile,Americas,es-419,Huilliche
+hux,Nüpode Huitoto,,Peru,Americas,es-419,Huitoto
+hvk,Haveke,,New Caledonia,Pacific,en,Haveke
+jrb,ערבית יהודית,500000,Israel,Eurasia,en,
+iai,Iaai,,New Caledonia,Pacific,en,Iaai
+ilv,Ilue,5000,Nigeria,Africa,en,Ilue
+iri,Irigwe,40000,Nigeria,Africa,en,Irigwe
+ide,Idere,5000,Nigeria,Africa,en,Idere
+ibe,Akpes,10000,Nigeria,Africa,en,Akpes
+ils,International Sign,,Italy,Eurasia,en,International Sign
+iqw,Ikwo,260000,Nigeria,Africa,en,Ikwo
+ige,Igede,250000,Nigeria,Africa,en,Igede
+inb,Inga,,Colombia,Americas,es-419,Inga
+ikw,Ikwere,200000,Nigeria,Africa,en,Ikwere
+hwo,Hwana,32000,Nigeria,Africa,en,Hwana
+ibm,Agoi,12000,Nigeria,Africa,en,Agoi
+ibn,Ibino,10000,Nigeria,Africa,en,Ibino
+idc,Idon,5000,Nigeria,Africa,en,Ajiya
+ikv,Iku-Gora-Ankwa,13000,Nigeria,Africa,en,Iku-Gora-Ankwa
+ica,Ede Ica,900000,Benin,Africa,fr,Ede Ica
+tsy,Tebul Sign Language,500,Mali,Africa,fr,Tebul Sign Language
+irk,Iraqw,540000,Tanzania,Africa,sw,Iraqw
+ida,Idakho-Isukha-Tiriki,660000,Kenya,Africa,sw,Luidakho-Luisukha-Lutirichi
+ilb,Ila,118000,Zambia,Americas,en,Ila
+hwa,Wané,1800,Côte d’Ivoire,Africa,fr,Wané
+hz,Otjiherero,150000,Namibia,Americas,en,Herero
+tud,Tuxá,-1,Brazil,Americas,pt,Tuxá
+irn,Irántxe,35,Brazil,Americas,pt,Irántxe
+iu,ᐃᓄᒃᑎᑐᑦ,36220,Canada,Americas,en,Inuktitut
+tuf,Central Tunebo,,Colombia,Americas,es-419,Tunebo

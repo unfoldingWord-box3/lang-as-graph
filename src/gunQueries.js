@@ -1,57 +1,33 @@
 import Gun from 'gun';
 
-export async function getByCode(code, callback) {
-  const languages = await Gun().get('languages');
-  languages.get(code).once(function (language) {
-    language.child_languages = getChildLanguages(language);
-    callback(language);
-  });
+const languages = Gun().get('languages');
+const regions = Gun().get('regions');
+const countries = Gun().get('countries');
+
+export function getByCode(code, callback) {
+  languages.get(code).once(callback);
 }
 
 const getLanguageBy = function (attribute) {
-  return async function (attrValue, callback) {
-    Gun()
-      .get('languages')
-      .map(function (language, code) {
-        if (language[attribute] === attrValue) {
-          language.child_languages = getChildLanguages(language);
-          return callback(language);
-        }
-      });
+  return function (attrValue, callback) {
+    languages.map(function (language, code) {
+      if (language[attribute] === attrValue) return callback(language);
+    });
   };
 };
-
-function getChildLanguages(gatewayLanguage) {
-  const child_languages = [];
-  Gun()
-    .get('languages')
-    .map(function (l, code) {
-      l.gl === gatewayLanguage.code && child_languages.push(l);
-    });
-  return child_languages;
-}
 
 export const getByName = getLanguageBy('name');
 export const getByAnglicizedName = getLanguageBy('anglicized_name');
 
-const getLanguagesBy = function (attribute) {
-  return async function (attrValue, callback) {
-    let matches = [];
-    Gun()
-      .get('languages')
-      .map(function (language, code) {
-        language[attribute] === attrValue && matches.push(language);
-      });
-    for (let match of matches) {
-      match.child_languages = getChildLanguages(match);
-    }
-    const obj = {
-      [attribute]: attrValue,
-      local_languages: matches,
-    };
-    callback(obj);
-  };
-};
+export function getByRegion(region, callback) {
+  regions.get(region).get('local_languages').once(callback);
+}
+export function getByCountry(country, callback) {
+  countries.get(country).get('local_languages').once(callback);
+}
 
-export const getByRegion = getLanguagesBy('region');
-export const getByCountry = getLanguagesBy('coutry');
+window.getByCode = getByCode;
+window.getByName = getByName;
+window.getByAnglicizedName = getByAnglicizedName;
+window.getByRegion = getByRegion;
+window.getByCountry = getByCountry;

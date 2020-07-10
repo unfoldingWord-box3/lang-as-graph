@@ -13,6 +13,8 @@ export function Provider(props) {
   const [results, setResults] = useState(null);
   const [query, setQuery] = useState({ type: null, term: null });
 
+  console.log(results)
+
   const value = {
     results,
     query,
