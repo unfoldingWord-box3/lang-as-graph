@@ -26,22 +26,4 @@ export default async function loadGun() {
       });
     }
   });
-
-  // const languages = await Gun()
-  //   .get('languages')
-  //   .once((data) => {
-  //     // If no data exists for the 'languages node...
-  //     if (!data) {
-  //       // Load the node with data from the local CSV
-  //       csv(languagesCSV, async (languagesData) => {
-  //         for (let language of languagesData) {
-  //           const { code } = language;
-  //           await languages.get(code).put(language);
-  //           await setChildOfGateway(code);
-  //         }
-  //       });
-  //     }
-  //   });
 }
-
-// languagesData.forEach((language) => languages.set(language));
