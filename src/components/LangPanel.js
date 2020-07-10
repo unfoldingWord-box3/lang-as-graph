@@ -11,27 +11,28 @@ export default function LangPanel(props) {
     return null;
 
   return (
-    <Drawer
-      PaperProps={{ style: { position: 'absolute' } }}
-      BackdropProps={{ style: { position: 'absolute' } }}
-      ModalProps={{
-        style: { position: 'absolute' },
-      }}
-      anchor="right"
-      open
-      variant="permanent"
-    >
-      <div className="drawer">
-        <Typography>Name: {results.name}</Typography>
-        <Typography>Anglicized Name: {results.anglicized_name}</Typography>
-        <Typography>Language Code: {results.code}</Typography>
-        <Typography>Gateway Language Code{results.gl}</Typography>
-        <Typography>Region: {results.region}</Typography>
-        <Typography>Country: {results.country}</Typography>
-        {results.child_languages?.length > 0 && (
-          <Accordion children={results.child_languages} />
-        )}
-      </div>
-    </Drawer>
+    <div id="drawer">
+      <p>
+        Name: <span>{results.name}</span>
+      </p>
+      <p>
+        Anglicized Name: <span>{results.anglicized_name}</span>
+      </p>
+      <p>
+        Language Code: <span>{results.code}</span>
+      </p>
+      <p>
+        Gateway Language Code: <span>{results.gl}</span>
+      </p>
+      <p>
+        Region: <span>{results.region}</span>
+      </p>
+      <p>
+        Country: <span>{results.country}</span>
+      </p>
+      {results.child_languages?.length > 0 && (
+        <Accordion children={results.child_languages} />
+      )}
+    </div>
   );
 }

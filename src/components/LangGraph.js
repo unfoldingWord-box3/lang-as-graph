@@ -20,12 +20,16 @@ export default function LangGraph(props) {
     setActiveNode(d);
   }, []);
 
+  const mouseleave = useCallback(function (d) {
+    setActiveNode(null);
+  }, []);
+
   useEffect(() => {
-    visualize(context.results, { mouseover });
+    visualize(context.results, { mouseover, mouseleave });
   }, [context.results, mouseover]);
 
   useEffect(() => {
-    context.getByRegion('Pacific');
+    context.getByCountry('Australia');
   }, []);
 
   const svgEl = useRef();
@@ -42,14 +46,16 @@ export default function LangGraph(props) {
         <h1>
           {context.query.type}: {context.query.term}
         </h1>
-        <svg ref={svgEl} id="svg"></svg>
-        <LangPanel />
-        <Popover
-          onClose={() => setActiveNode(false)}
-          anchorEl={svgEl.current}
-          node={activeNode}
-          selectNode={nodeSelected}
-        />
+        <main style={{ display: 'flex' }}>
+          <svg ref={svgEl} id="svg"></svg>
+          <LangPanel />
+          <Popover
+            onClose={() => setActiveNode(false)}
+            anchorEl={svgEl.current}
+            node={activeNode}
+            selectNode={nodeSelected}
+          />
+        </main>
       </div>
     </Fragment>
   );

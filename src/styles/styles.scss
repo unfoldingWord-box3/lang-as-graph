@@ -1,0 +1,46 @@
+#map {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+  #popover {
+    position: absolute;
+    transform: translate(60px, 40px);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+    cursor: pointer;
+  }
+
+  #svg {
+    width: 100%;
+  }
+
+  #drawer {
+    transform: translateX(-10px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    p {
+      span {
+        font-style: italic;
+      }
+    }
+  }
+}
+
+.toolbar__tools {
+  & > * {
+    margin: 0 10px;
+  }
+}
+
+.popover {
+  cursor: pointer;
+}
+
+.drawer {
+  padding: 10px;
+}

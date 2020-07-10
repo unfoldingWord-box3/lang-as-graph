@@ -12,28 +12,16 @@ import Context from '../context';
 
 export default function LangSelector(props) {
   const [searchTerm, setSearchTerm] = useState('');
-  const [option, setOption] = useState('anglicized_name');
-  const {
-    getByCode,
-    getByName,
-    getByAnglicizedName,
-    getByRegion,
-    getByCountry,
-  } = useContext(Context);
+  const [option, setOption] = useState('country');
+  const { getByCode, getByRegion, getByCountry } = useContext(Context);
 
   function search() {
     switch (option) {
-      case 'anglicized_name':
-        getByAnglicizedName(searchTerm);
-        break;
       case 'country':
         getByCountry(searchTerm);
         break;
       case 'region':
         getByRegion(searchTerm);
-        break;
-      case 'name':
-        getByName(searchTerm);
         break;
       case 'code':
         getByCode(searchTerm);
@@ -55,10 +43,8 @@ export default function LangSelector(props) {
             placeholder="View languages by..."
           />
           <Select value={option} onChange={(e) => setOption(e.target.value)}>
-            <MenuItem value="anglicized_name">Anglicized Name</MenuItem>
             <MenuItem value="country">Country</MenuItem>
             <MenuItem value="region">Region</MenuItem>
-            <MenuItem value="name">Language Name</MenuItem>
             <MenuItem value="code">Language Code</MenuItem>
           </Select>
           <Button
