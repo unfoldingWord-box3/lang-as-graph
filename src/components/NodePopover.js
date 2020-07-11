@@ -1,12 +1,13 @@
-import React, { useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
+import Context from '../context';
 import { Typography } from '@material-ui/core';
 
 export default function NodePopover(props) {
+  const context = useContext(Context);
+
   if (!props.node) return null;
 
   const { x, y } = props.node;
-  console.log('x', x);
-  console.log('y', y);
   const { data } = props.node;
 
   function documentClicked(e) {
@@ -28,7 +29,12 @@ export default function NodePopover(props) {
       id="popover"
       onClick={() => props.selectNode(data.code)}
     >
-      <Typography>{data.name || data.region}</Typography>
+      <Typography>
+        {data.name ||
+          (context.parent.type === 'region' && context.results.region) ||
+          (context.parent.type === 'country' && context.results.country) ||
+          context.query.term}
+      </Typography>
       <Typography>
         {data.child_languages?.length > 0 &&
           `Child languages: ${data.child_languages.length}`}

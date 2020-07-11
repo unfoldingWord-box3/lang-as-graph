@@ -50,8 +50,7 @@ function addCircles(rootNode, svg, callbacks) {
     .style('fill', '#69b3a2')
     .attr('stroke', 'black')
     .style('stroke-width', 2)
-    .on('mouseover', (d) => callbacks.mouseover(d))
-    // .on('mouseleave', () => callbacks.mouseleave());
+    .on('mouseover', (d) => callbacks.mouseover(d));
 }
 
 function addLinks(rootNode, svg) {

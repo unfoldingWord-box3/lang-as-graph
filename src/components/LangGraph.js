@@ -10,7 +10,7 @@ import visualize from '../visualize';
 import Popover from './NodePopover';
 import Context from '../context';
 import LangPanel from './LangPanel';
-import { Select, MenuItem } from '@material-ui/core';
+import { Select, MenuItem, InputLabel, FormControl } from '@material-ui/core';
 
 export default function LangGraph(props) {
   const context = useContext(Context);
@@ -21,27 +21,29 @@ export default function LangGraph(props) {
     setActiveNode(d);
   }, []);
 
-  const mouseleave = useCallback(function (d) {
-    setActiveNode(null);
-  }, []);
-
   useEffect(() => {
-    visualize(context.results, { mouseover, mouseleave });
-  }, [context.results, mouseover]);
+    const { results, parent } = context;
+    if (context.query.type === 'Language Code' && parent.value) {
+      const langs =
+        parent.value.local_languages || parent.value.child_languages;
+      const found = langs.find((lang) => lang.code === results.code);
+      found.child_languages = results.child_languages;
+      visualize(parent.value, { mouseover });
+    } else {
+      visualize(results, { mouseover });
+    }
+  }, [context.results, context.parent, mouseover]);
 
   useEffect(() => {
     context.getByCountry('Australia');
   }, []);
 
-  const svgEl = useRef();
   const mapEl = useRef();
 
   function nodeSelected(code) {
     context.getByCode(code);
     setActiveNode(null);
   }
-
-  console.log(context);
 
   return (
     <Fragment>
@@ -52,24 +54,25 @@ export default function LangGraph(props) {
           </h1>
           {context.query.type === 'Language Code' && (
             <div className="map__header__tools">
-              <h3>Parent Node:</h3>
-              <Select
-                value={context.parent.type}
-                onChange={(e) => context.updateParent(e.target.value)}
-              >
-                <MenuItem value="region">Region</MenuItem>
-                <MenuItem value="country">Country</MenuItem>
-                <MenuItem value="gl">Gateway Language</MenuItem>
-              </Select>
+              <FormControl id="form__control">
+                <InputLabel>Parent Node</InputLabel>
+                <Select
+                  value={context.parent.type}
+                  onChange={(e) => context.updateParent(e.target.value)}
+                >
+                  <MenuItem value="region">Region</MenuItem>
+                  <MenuItem value="country">Country</MenuItem>
+                  <MenuItem value="gl">Gateway Language</MenuItem>
+                </Select>
+              </FormControl>
             </div>
           )}
         </div>
         <main style={{ display: 'flex' }}>
-          <svg ref={svgEl} id="svg"></svg>
+          <svg id="svg"></svg>
           <LangPanel />
           <Popover
             onClose={() => setActiveNode(false)}
-            anchorEl={svgEl.current}
             node={activeNode}
             selectNode={nodeSelected}
           />
@@ -78,4 +81,3 @@ export default function LangGraph(props) {
     </Fragment>
   );
 }
-// {JSON.stringify(data?.languages, null, 2)}

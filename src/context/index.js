@@ -11,24 +11,21 @@ const context = createContext();
 export function Provider(props) {
   const [results, setResults] = useState(null);
   const [query, setQuery] = useState({ type: null, term: null });
-  const [parent, setParent] = useState({ type: 'region', value: null });
+  const [parent, setParent] = useState({ type: '', value: null });
 
   function updateParent(type) {
+    const selection = results[type];
+    const callback = (value) => setParent({ type, value });
+
     switch (type) {
       case 'country':
-        countryQuery(results.country, (value) =>
-          setParent({ type: 'country', value })
-        );
+        countryQuery(selection, callback);
         break;
       case 'region':
-        regionQuery(results.region, (value) =>
-          setParent({ type: 'region', value })
-        );
+        regionQuery(selection, callback);
         break;
       case 'gl':
-        languageByCodeQuery(results.gl, (value) =>
-          setParent({ type: 'gl', value })
-        );
+        languageByCodeQuery(selection, callback);
         break;
     }
   }
@@ -40,14 +37,17 @@ export function Provider(props) {
     parent,
     getByCode: (term) => {
       setQuery({ type: 'Language Code', term });
+      setParent({ type: '', value: null });
       languageByCodeQuery(term, setResults);
     },
     getByRegion: (term) => {
       setQuery({ type: 'Region', term });
+      setParent({ type: '', value: null });
       regionQuery(term, setResults);
     },
     getByCountry: (term) => {
       setQuery({ type: 'Country', term });
+      setParent({ type: '', value: null });
       countryQuery(term, setResults);
     },
   };

@@ -8,6 +8,10 @@
     justify-content: space-around;
     align-items: baseline;
     &__tools {
+      #form__control {
+        width: 120px;
+      }
+
       h3 {
         margin-right: 10px;
       }
@@ -17,6 +21,7 @@
   }
 
   #popover {
+    background: white;
     position: absolute;
     transform: translate(60px, 40px);
     padding: 5px;
