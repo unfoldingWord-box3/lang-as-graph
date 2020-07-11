@@ -17,14 +17,14 @@ export function allLanguagesQuery(callback) {
 
 export function regionQuery(region, callback) {
   graphqlGun(
-    (regionQuery = loader('./region.gql')),
+    loader('./region.gql'),
     Gun().get('regions').get(region)
   ).then((result) => callback(result));
 }
 
 export function countryQuery(country, callback) {
   graphqlGun(
-    (regionQuery = loader('./country.gql')),
+    loader('./country.gql'),
     Gun().get('countries').get(country)
   ).then((result) => callback(result));
 }

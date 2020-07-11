@@ -3,12 +3,25 @@
   height: 100vh;
   position: relative;
 
+  .map__header {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    &__tools {
+      h3 {
+        margin-right: 10px;
+      }
+      display: flex;
+      align-items: center;
+    }
+  }
+
   #popover {
     position: absolute;
     transform: translate(60px, 40px);
     padding: 5px;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     cursor: pointer;
   }
 

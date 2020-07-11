@@ -10,6 +10,7 @@ import visualize from '../visualize';
 import Popover from './NodePopover';
 import Context from '../context';
 import LangPanel from './LangPanel';
+import { Select, MenuItem } from '@material-ui/core';
 
 export default function LangGraph(props) {
   const context = useContext(Context);
@@ -40,12 +41,29 @@ export default function LangGraph(props) {
     setActiveNode(null);
   }
 
+  console.log(context);
+
   return (
     <Fragment>
       <div ref={mapEl} id="map">
-        <h1>
-          {context.query.type}: {context.query.term}
-        </h1>
+        <div className="map__header">
+          <h1>
+            {context.query.type}: {context.query.term}
+          </h1>
+          {context.query.type === 'Language Code' && (
+            <div className="map__header__tools">
+              <h3>Parent Node:</h3>
+              <Select
+                value={context.parent.type}
+                onChange={(e) => context.updateParent(e.target.value)}
+              >
+                <MenuItem value="region">Region</MenuItem>
+                <MenuItem value="country">Country</MenuItem>
+                <MenuItem value="gl">Gateway Language</MenuItem>
+              </Select>
+            </div>
+          )}
+        </div>
         <main style={{ display: 'flex' }}>
           <svg ref={svgEl} id="svg"></svg>
           <LangPanel />
