@@ -10,15 +10,15 @@ export default function NodePopover(props) {
   const { x, y } = props.node;
   const { data } = props.node;
 
-  function documentClicked(e) {
-    const clicked = document.getElementById('popover')?.contains(e.target);
-    if (!clicked) {
-      document.removeEventListener('click', documentClicked);
-      props.onClose();
-    }
-  }
+  // function documentClicked(e) {
+  //   const clicked = document.getElementById('popover')?.contains(e.target);
+  //   if (!clicked) {
+  //     document.removeEventListener('click', documentClicked);
+  //     props.onClose();
+  //   }
+  // }
 
-  document.addEventListener('click', documentClicked);
+  // document.addEventListener('click', documentClicked);
 
   return (
     <div
@@ -27,7 +27,6 @@ export default function NodePopover(props) {
         left: y,
       }}
       id="popover"
-      onClick={() => props.selectNode(data.code)}
     >
       <Typography>
         {data.name ||

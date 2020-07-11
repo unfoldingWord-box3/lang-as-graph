@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import PropTypes from 'prop-types';
+import { FixedSizeList } from 'react-window';
 import {
   Accordion,
   AccordionSummary,
@@ -11,7 +11,7 @@ import {
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Context from '../context';
 
-export default function ChildLangSelect({ children }) {
+export default function ChildLangSelect({ children, title }) {
   const context = useContext(Context);
 
   return (
@@ -21,17 +21,28 @@ export default function ChildLangSelect({ children }) {
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
         >
-          <Typography>Child Languages</Typography>
+          <Typography>{title}</Typography>
         </AccordionSummary>
-        {children.map((lang) => {
-          return (
-            <AccordionDetails key={lang.code}>
-              <ListItem onClick={() => context.getByCode(lang.code)} button>
-                <ListItemText>{dispalyLanguageInline(lang)}</ListItemText>
+        <FixedSizeList
+          height={children.length * 44}
+          itemSize={50}
+          itemCount={children.length}
+        >
+          {function ({ index }) {
+            return (
+              <ListItem
+                className="list__item"
+                key={index}
+                onClick={() => context.getByCode(children[index].code)}
+                button
+              >
+                <ListItemText>
+                  {dispalyLanguageInline(children[index])}
+                </ListItemText>
               </ListItem>
-            </AccordionDetails>
-          );
-        })}
+            );
+          }}
+        </FixedSizeList>
       </Accordion>
     </div>
   );

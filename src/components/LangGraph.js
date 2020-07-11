@@ -21,6 +21,10 @@ export default function LangGraph(props) {
     setActiveNode(d);
   }, []);
 
+  const mouseleave = useCallback(function (d) {
+    setActiveNode(null);
+  }, []);
+
   useEffect(() => {
     const { results, parent } = context;
     if (context.query.type === 'Language Code' && parent.value) {
@@ -28,11 +32,15 @@ export default function LangGraph(props) {
         parent.value.local_languages || parent.value.child_languages;
       const found = langs.find((lang) => lang.code === results.code);
       found.child_languages = results.child_languages;
-      visualize(parent.value, { mouseover });
+      found.selectedNode = true;
+      visualize(parent.value, { mouseover, mouseleave, selectNode });
     } else {
-      visualize(results, { mouseover });
+      visualize(
+        { ...results, selectedNode: true },
+        { mouseover, mouseleave, selectNode }
+      );
     }
-  }, [context.results, context.parent, mouseover]);
+  }, [context.results, context.parent, mouseover, mouseleave]);
 
   useEffect(() => {
     context.getByCountry('Australia');
@@ -40,8 +48,20 @@ export default function LangGraph(props) {
 
   const mapEl = useRef();
 
-  function nodeSelected(code) {
-    context.getByCode(code);
+  function selectNode(data) {
+    console.log(data);
+    console.log(context);
+    if (data.code) context.getByCode(data.code);
+    else {
+      const { parent, results, getByCountry, getByRegion } = context;
+      if (parent.type === 'region') {
+        getByRegion(results.region);
+      } else if (parent.type === 'country') {
+        getByCountry(results.country);
+      } else {
+        alert('TODO');
+      }
+    }
     setActiveNode(null);
   }
 
@@ -71,11 +91,7 @@ export default function LangGraph(props) {
         <main style={{ display: 'flex' }}>
           <svg id="svg"></svg>
           <LangPanel />
-          <Popover
-            onClose={() => setActiveNode(false)}
-            node={activeNode}
-            selectNode={nodeSelected}
-          />
+          <Popover onClose={() => setActiveNode(false)} node={activeNode} />
         </main>
       </div>
     </Fragment>

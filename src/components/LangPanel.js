@@ -1,14 +1,24 @@
 import React, { useContext } from 'react';
-import { Drawer, Typography } from '@material-ui/core';
 import Context from '../context';
 import Accordion from './ChildLangSelect';
 
 export default function LangPanel(props) {
   const context = useContext(Context);
-  const { results } = context;
-  let queryType = context.query.type;
-  if (queryType === 'Region' || queryType === 'Country' || !results)
-    return null;
+  const { results, query } = context;
+  let queryType = query.type;
+
+  if (!results) return null;
+
+  if (queryType === 'Region' || queryType === 'Country') {
+    return (
+      <div id="drawer">
+        <p>
+          {queryType}: <span>{query.term}</span>
+        </p>
+        {results.local_languages && <Accordion title="Local Languages" children={results.local_languages} />}
+      </div>
+    );
+  }
 
   return (
     <div id="drawer">
@@ -31,7 +41,7 @@ export default function LangPanel(props) {
         Country: <span>{results.country}</span>
       </p>
       {results.child_languages?.length > 0 && (
-        <Accordion children={results.child_languages} />
+        <Accordion title="Child Languages" children={results.child_languages} />
       )}
     </div>
   );

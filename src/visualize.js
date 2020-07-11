@@ -47,10 +47,13 @@ function addCircles(rootNode, svg, callbacks) {
     })
     .append('circle')
     .attr('r', 7)
-    .style('fill', '#69b3a2')
+    .style('fill', (d) => (d.data.selectedNode ? '#00c3ff' : '#ff7b00'))
     .attr('stroke', 'black')
     .style('stroke-width', 2)
-    .on('mouseover', (d) => callbacks.mouseover(d));
+    .style('cursor', 'pointer')
+    .on('mouseover', callbacks.mouseover)
+    .on('mouseleave', callbacks.mouseleave)
+    .on('click', (d) => callbacks.selectNode(d.data));
 }
 
 function addLinks(rootNode, svg) {
