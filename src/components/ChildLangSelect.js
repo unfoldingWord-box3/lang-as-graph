@@ -23,11 +23,7 @@ export default function ChildLangSelect({ children, title }) {
         >
           <Typography>{title}</Typography>
         </AccordionSummary>
-        <FixedSizeList
-          height={children.length * 44}
-          itemSize={50}
-          itemCount={children.length}
-        >
+        <FixedSizeList height={270} itemSize={70} itemCount={children.length}>
           {function ({ index }) {
             return (
               <ListItem
