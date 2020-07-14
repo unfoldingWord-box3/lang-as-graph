@@ -8,6 +8,6 @@ const children = [
 ]
 
 ;<Provider>
-<ChildLangSelect children={children} />
+<ChildLangSelect title={"Child Languages"} children={children} />
 </Provider>;
 ```

@@ -7,12 +7,7 @@ module.exports = {
   components: 'src/components/**/*.js',
   getExampleFilename(componentPath) {
     const baseName = path.basename(componentPath, path.extname(componentPath));
-    return path.join(
-      componentPath,
-      '..',
-      '..',
-      'markdown',
-      baseName + '.md'
-    );
+    return path.join(componentPath, '..', '..', 'markdown', baseName + '.md');
   },
+  ignore: ['src/components/NodePopover.js'],
 };

@@ -1,10 +1,8 @@
 ```js
-import { useRef } from 'react';
 import Context, { Provider } from '../context';
-import '../styles.scss';
-import ThemeProvider from '../Theme';
-import { withTheme } from '@material-ui/core/styles';
+import ThemeProvider from '../styles/Theme';
 import { CssBaseline } from '@material-ui/core';
+import '../styles/styles.scss';
 
 <Provider>
   <ThemeProvider>
@@ -53,7 +51,6 @@ import { CssBaseline } from '@material-ui/core';
               id="drawer__container"
               style={{
                 position: 'relative',
-                height: '300px',
                 margin: '10px',
                 border: '1px solid #eee',
                 padding: '5px',

@@ -50,7 +50,6 @@ export default function LangGraph(props) {
 
   function selectNode(data) {
     console.log(data);
-    console.log(context);
     if (data.code) context.getByCode(data.code);
     else {
       const { parent, results, getByCountry, getByRegion } = context;

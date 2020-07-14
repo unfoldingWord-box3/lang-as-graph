@@ -30,24 +30,26 @@ export function Provider(props) {
     }
   }
 
+  function updateQuery(type, term) {
+    setQuery({ type, term });
+    setParent({ type: '', value: null });
+  }
+
   const value = {
     results,
     query,
     updateParent,
     parent,
     getByCode: (term) => {
-      setQuery({ type: 'Language Code', term });
-      setParent({ type: '', value: null });
+      updateQuery('Language Code', term);
       languageByCodeQuery(term, setResults);
     },
     getByRegion: (term) => {
-      setQuery({ type: 'Region', term });
-      setParent({ type: '', value: null });
+      updateQuery('Region', term);
       regionQuery(term, setResults);
     },
     getByCountry: (term) => {
-      setQuery({ type: 'Country', term });
-      setParent({ type: '', value: null });
+      updateQuery('Country', term);
       countryQuery(term, setResults);
     },
   };

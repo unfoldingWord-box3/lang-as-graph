@@ -1,10 +1,10 @@
 ```js
-import {Provider} from '../context'
-import ThemeProvider from '../Theme';
+import { Provider } from '../context';
+import ThemeProvider from '../styles/Theme';
 
 ;<Provider>
-<ThemeProvider>
-  <LangSelector />
-</ThemeProvider>
+  <ThemeProvider>
+    <LangSelector />
+  </ThemeProvider>
 </Provider>;
 ```

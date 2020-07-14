@@ -11,17 +11,22 @@ export default function LangPanel(props) {
 
   if (queryType === 'Region' || queryType === 'Country') {
     return (
-      <div id="drawer">
+      <div className="drawer">
         <p>
           {queryType}: <span>{query.term}</span>
         </p>
-        {results.local_languages && <Accordion title="Local Languages" children={results.local_languages} />}
+        {results.local_languages && (
+          <Accordion
+            title="Local Languages"
+            children={results.local_languages}
+          />
+        )}
       </div>
     );
   }
 
   return (
-    <div id="drawer">
+    <div className="drawer">
       <p>
         Name: <span>{results.name}</span>
       </p>
