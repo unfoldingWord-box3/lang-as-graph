@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import Context from '../context';
 import { Typography } from '@material-ui/core';
 
@@ -9,16 +9,6 @@ export default function NodePopover(props) {
 
   const { x, y } = props.node;
   const { data } = props.node;
-
-  // function documentClicked(e) {
-  //   const clicked = document.getElementById('popover')?.contains(e.target);
-  //   if (!clicked) {
-  //     document.removeEventListener('click', documentClicked);
-  //     props.onClose();
-  //   }
-  // }
-
-  // document.addEventListener('click', documentClicked);
 
   return (
     <div

@@ -1,7 +1,6 @@
 import React, { createContext, useState } from 'react';
 import {
   countryQuery,
-  allLanguagesQuery,
   languageByCodeQuery,
   regionQuery,
 } from '../graphql/graphqlGun';
@@ -27,6 +26,8 @@ export function Provider(props) {
       case 'gl':
         languageByCodeQuery(selection, callback);
         break;
+      default:
+        alert("TODO")
     }
   }
 

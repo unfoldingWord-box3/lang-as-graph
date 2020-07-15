@@ -7,5 +7,14 @@ query {
     region
     gl
     anglicized_name
+    child_languages(type: Set) {
+      code
+      name
+      native_speakers
+      country
+      region
+      gl
+      anglicized_name
+    }
   }
 }

@@ -3,7 +3,6 @@ import { FixedSizeList } from 'react-window';
 import {
   Accordion,
   AccordionSummary,
-  AccordionDetails,
   Typography,
   ListItem,
   ListItemText,

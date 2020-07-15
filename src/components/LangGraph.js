@@ -43,7 +43,7 @@ export default function LangGraph(props) {
   }, [context.results, context.parent, mouseover, mouseleave]);
 
   useEffect(() => {
-    context.getByCountry('Australia');
+    context.getByCountry('Togo');
   }, []);
 
   const mapEl = useRef();
