@@ -1,6 +1,6 @@
 import Gun from 'gun';
 import { csv } from 'd3';
-import * as languagesCSV from './test.csv';
+import * as languagesCSV from './languages.csv';
 
 export default async function loadGun() {
   const gun = Gun();
