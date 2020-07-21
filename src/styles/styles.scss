@@ -58,6 +58,8 @@
   }
 }
 
-.popover {
-  cursor: pointer;
+
+.accordion__body {
+  height: 310px;
+  overflow-y: scroll;
 }

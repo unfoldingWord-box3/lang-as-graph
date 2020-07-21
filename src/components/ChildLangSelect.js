@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { FixedSizeList } from 'react-window';
+// import { FixedSizeList } from 'react-window';
 import {
   Accordion,
   AccordionSummary,
@@ -22,28 +22,21 @@ export default function ChildLangSelect({ children, title }) {
         >
           <Typography>{title}</Typography>
         </AccordionSummary>
-        <FixedSizeList height={270} itemSize={70} itemCount={children.length}>
-          {function ({ index }) {
+        <div className="accordion__body">
+          {children.map((childLang) => {
             return (
               <ListItem
                 className="list__item"
-                key={index}
-                onClick={() => context.getByCode(children[index].code)}
+                key={childLang.code}
+                onClick={() => context.getByCode(childLang.code)}
                 button
               >
-                <ListItemText>
-                  {dispalyLanguageInline(children[index])}
-                </ListItemText>
+                <ListItemText>{childLang.code}</ListItemText>
               </ListItem>
             );
-          }}
-        </FixedSizeList>
+          })}
+        </div>
       </Accordion>
     </div>
   );
-}
-
-function dispalyLanguageInline(language) {
-  const { code } = language;
-  return code;
 }
